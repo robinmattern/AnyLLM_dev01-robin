@@ -1,0 +1,73 @@
+
+frontend-src-models-workspace.js
+--------------------------------------------------------------------------------------------------------------------------
+[  7] const Workspace = {
+[  8]   new:                  async function (       data    = { } ) { .... )
+[ 21]   update:               async function ( slug, data    = { } ) { .... )
+[ 37]   modifyEmbeddings:     async function ( slug, changes = { } ) { .... )
+[ 53]   chatHistory:          async function ( slug ) { .... )
+[ 63]   updateChatFeedback:   async function ( chatId, slug, feedback ) { .... )
+[ 76]   streamChat:           async function ( { slug }, message, handleChat ) { .... )
+[135]   all:                  async function (          ) { .... )
+[146]   bySlug:               async function ( slug = "") { .... }
+[155]   delete:               async function ( slug     ) { .... )
+[165]   uploadFile:           async function ( slug, formData ) { .... )
+[175]   uploadLink:           async function ( slug, link ) { .... )
+[186]   getSuggestedMessages: async function ( slug     ) { .... )
+[202]   setSuggestedMessages: async function ( slug, messages ) { .... )
+[221]   setPinForDocument:    async function ( slug, docPath, pinStatus) { .... )
+[241]   }
+[242] export default Workspace;
+
+
+server-endpoints-workspaces.js
+--------------------------------------------------------------------------------------------------------------------------
+[ 26]  app.post(   "/workspace/new",                         [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[ 63]  app.post(   "/workspace/:slug/update",                [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[ 92]  app.post(   "/workspace/:slug/upload",                [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[133]  app.post(   "/workspace/:slug/upload-link",           [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[171]  app.post(   "/workspace/:slug/update-embeddings",     [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[215]  app.delete( "/workspace/:slug",                       [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[258]  app.get(    "/workspaces",                            [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[276]  app.get(    "/workspace/:slug",                       [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[295]  app.get(    "/workspace/:slug/chats",                 [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[323]  app.post(   "/workspace/:slug/chat-feedback/:chatId", [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[352]  app.get(    "/workspace/:slug/suggested-messages",    [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[370]  app.post(   "/workspace/:slug/suggested-messages",    [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+[399]  app.post(   "/workspace/:slug/update-pin",            [ validatedRequest, flexUserRoleValid( [ ... ] ) ], .... )
+
+server-models-document.js
+--------------------------------------------------------------------------------------------------------------------------
+[  7] const Document = {
+[ 10]   forWorkspace:  async function ( clause = { } ) { ... }
+[ 17]   delete:  async function ( clause = { } ) { ... }
+[ 27]   get:     async function ( clause = { } ) { ... }
+[ 39]   getPins: async function ( clause = { } ) { ... }
+[ 54]   where:   async function ( clause = { }, limit = null, orderBy = null) { ... }
+[ 68]   addDocuments:    async function (workspace, additions = [], userId = null) {
+[130]   removeDocuments: async function (workspace, removals  = [], userId = null) { ... }
+[173]   count:   async function ( clause = { }, limit = null) { ... }
+[185]   update:  async function ( id = null, data = { }) { ... }
+[206]   }
+[207] module.exports = { Document };
+
+collector-node_modules-langchain-dist-document_loaders-web-puppeteer.cjs
+--------------------------------------------------------------------------------------------------------------------------
+[ 23] class PuppeteerWebBaseLoader extends base_js_1.BaseDocumentLoader {
+[ 40]   static async _scrape( url, options ) {
+[ 65]   async scrape() {
+[ 73]   async load() {
+[ 87]   static async _screenshot( url, options ) {
+[112]   async screenshot() {
+[120]   static async imports() {
+[131]   }
+[132] exports.PuppeteerWebBaseLoader = PuppeteerWebBaseLoader;
+
+collector-processLink-convert-generic.js
+--------------------------------------------------------------------------------------------------------------------------
+[  9]  async function scrapeGenericUrl( link ) { .... }
+[ 22]  const url      = new URL( link )
+[ 23]  const filename = (url.host + "=" + url.pathname).replace( ".", "_");
+[ 25]  const date     = { .... }
+[ 47]  sync function getPageContent( link ) { .... }
+[ 77]  module.exports = { scrapeGenericUrl };

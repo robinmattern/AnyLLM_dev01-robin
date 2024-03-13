@@ -1,0 +1,240 @@
+    `#    E:\Repos\Robin\AnyLM_\dev01-robin\server\storage/documents\custom-documents`
+    `# cd /E/Repos/Robin/AnyLM_/dev01-robin/server/storage/documents/`
+    `# rdir`
+          138954  2024-03-03 18:11  ./ai240105_RAG-for-LLMs-(2312.10997).pdf-2e08b9c0-db76-4e12-a09a-b97790d3551f.json
+           73991  2024-03-03 18:16  ./ai210412_RAG-for-NLP-Tasks-(2005.11401).pdf-20f2fbf4-f012-4874-b305-5e3e9a81373e.json
+           12532  2024-03-03 18:29  ./url-www_amazon.com-s-f49b5be1-b23d-410d-964a-0b3de47772d6.json
+           16271  2024-03-05 09:27  ./url-www_amazon.com-s-a319b4d5-4ad6-4977-8813-94c64996340c.json
+           18529  2024-03-07 09:34  ./url-www_amazon.com-s-824c1cef-2f95-48d6-8633-8906e4ec33e0.json
+    `# cat custom-documents/url-www_amazon.com-s-824c1cef-2f95-48d6-8633-8906e4ec33e0.json`
+          {
+            "id"         : "f49b5be1-b23d-410d-964a-0b3de47772d6",
+            "url"        : "file://www_amazon.com-s.html",
+            "title"      : "www_amazon.com-s.html",
+            "docAuthor"  : "no author found",
+            "description": "No description found.",
+            "docSource"  : "URL link uploaded by the user.",
+            "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=instant-video&crid=2VOPM9RTZWLEE&sprefix=projector+4k%2Cinstant-video%2C74&ref=nb_sb_noss_2",
+            "published"  : "3/3/2024, 6:29:49 PM",
+            "wordCount"  :  1325,
+            "pageContent": "Skip to main content
+
+  path: "custom-documents/url-www_amazon.com-s-824c1cef-2f95-48d6-8633-8906e4ec33e0.json"
+
+newDoc: { docId: "1494d7b1-9f5e-425d-8a92-7d4055133675",
+        , filename: "url-www_amazon.com-s-824c1cef-2f95-48d6-8633-8906e4ec33e0.json",
+        , docpath: "custom-documents/url-www_amazon.com-s-824c1cef-2f95-48d6-8633-8906e4ec33e0.json",
+        , workspaceId: 3,
+        , metadata: "{\"id\":\"824c1cef-2f95-48d6-8633-8906e4ec33e0\",\"url\":\"file://www_amazon.com-s.html\",\"title\":\"www_amazon.com-s.html\",\"docAuthor\":\"no author found\",\"description\":\"No description found.\",\"docSource\":\"URL link uploaded by the user.\",\"chunkSource\":\"link://https://www.amazon.com/s?k=projector+4k&i=electronics&ref=nb_sb_noss\",\"published\":\"3/7/2024, 9:34:40 AM\",\"wordCount\":1977,\"token_count_estimate\":5140}",
+          }
+
+
+
+
+index.js[ 12]   [CollectorApi] Link https://www.amazon.com/s?k=projector+4k&i=electronics&ref=nb_sb_noss uploaded processed and successfully. It is now available in documents.
+eventLogs.js:14 [Event Logged] - link_uploaded
+index.js[157]   Adding new vectorized document into namespace amazon-webpages
+index.js[190]   Chunks created from document: 19
+index.js[226]   Inserting vectorized chunks into LanceDB collection.
+                Caching vectorized results of custom-documents/url-www_amazon.com-s-824c1cef-2f95-48d6-8633-8906e4ec33e0.json to prevent duplicated embedding.
+
+
+
+
+http://155.138.193.41:3000/settings/api-keys
+6Q5P8YR-JXAMFGB-KGGEZ6T-W94PXE3
+
+https://www.amazon.com/s?k=projector+4k&i=electronics&ref=nb_sb_noss
+
+http://155.138.193.41:3001/api/docs/#/Documents/post_v1_document_upload_link
+http://155.138.193.41:3001/api/v1/document/upload-link
+
+Msg to Discord
+
+I currently have installed AnythingLLM on a vanilla ubuntu VM in the cloud.
+- I've installed node, npm, and yarn (not so simple).
+- I was able to clone AnythingLLM and then run yarn:setup.
+- This didn't install Prisma, but I was able to get it installed from within the server folder.
+- After letting ports 3000, 3001 and 8888 through the firewall, and adding `
+
+    `VITE_API_BASE='http://155.138.193.41:3001/api`  to ./frontend/.env
+
+I was able to get to the AnythingLLM GUI/app running in development mode.
+
+I understand that you don't want to support this non-docker installation, but perhaps I can document how
+to install such an instance and/or suggest a PR to fix a few glitches.
+
+So if you are open to such an OS related question, I can't upload a web link either through the GUI, or using the API:
+
+    `http://xxx.xxx.xxx.xxx:3001/api/docs/#/Documents/post_v1_document_upload_link (or http://xxx.xxx.xxx.xxx:3001/api/v1/document/upload-link)`
+
+I see the following error in the yarn dev:frontend console:
+
+    `getPageContent failed! Error: Failed to launch the browser process!`
+    `/root/.cache/puppeteer/chrome/linux-119.0.6045.105/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory`
+
+I believe this means that Chrome is not installed. The Ubuntu server is not running a desktop GUI, so
+can you tell me how to install Chrome so that it is useable by puppeteer.
+
+
+http://xxx.xxx.xxx.xxx:3001/api/docs/#/Documents/post_v1_document_upload_link (or http://xxx.xxx.xxx.xxx:3001/api/v1/document/upload-link)
+
+I see the following error:
+
+    getPageContent failed! Error: Failed to launch the browser process!
+    /root/.cache/puppeteer/chrome/linux-119.0.6045.105/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+
+I believe this means that Chrome is not installed.  The Ubuntu server is not running a desktop GUI, so
+can you tell me how to install Chrome so that it is useable by puppeteer
+
+
+curl -X 'POST' \
+  'http://155.138.193.41:3001/api/v1/document/upload-link' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer 6Q5P8YR-JXAMFGB-KGGEZ6T-W94PXE3' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "link": "https://www.amazon.com/s?k=projector+4k&i=electronics&ref=nb_sb_noss"
+}'
+    `error in vite console: yarn dev:frontend`
+
+        Instead of /public/fonts/PlusJakartaSans.ttf, use /fonts/PlusJakartaSans.ttf. (x11)
+        [2] -- Working URL https://www.amazon.com/s?k=projector+4k&i=electronics&ref=nb_sb_noss --
+        [2] getPageContent failed! Error: Failed to launch the browser process!
+        [2] /root/.cache/puppeteer/chrome/linux-119.0.6045.105/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+        [2]
+        [2]
+        [2] TROUBLESHOOTING: https://pptr.dev/troubleshooting
+        [2]
+        [2]     at Interface.onClose (file:///webs/anyllm/collector/node_modules/@puppeteer/browsers/lib/esm/launch.js:262:24)
+        [2]     at Interface.emit (node:events:529:35)
+        [2]     at Interface.close (node:internal/readline/interface:534:10)
+        [2]     at Socket.onend (node:internal/readline/interface:260:10)
+        [2]     at Socket.emit (node:events:529:35)
+        [2]     at endReadableNT (node:internal/streams/readable:1400:12)
+        [2]     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+        [2] TypeError: Cannot read properties of null (reading 'length')
+        [2]     at scrapeGenericUrl (/webs/anyllm/collector/processLink/convert/generic.js:13:16)
+        [2]     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+        [2]     at async processLink (/webs/anyllm/collector/processLink/index.js:6:10)
+        [2]     at async /webs/anyllm/collector/index.js:56:49
+
+
+[2] -- Working URL https://www.amazon.com/s?k=projector+4k&i=electronics&ref=nb_sb_noss --
+[2] getPageContent failed! Error: Failed to launch the browser process!
+[2] /root/.cache/puppeteer/chrome/linux-119.0.6045.105/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+
+- Recommended by Bard
+    `# sudo apt install libnss3 libxss1 libsecret-1-0 libgtk2.0-0 libstdc++6 libpulse0 libxcb1 libgbm1 libasound2
+    `# wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+
+
+
+    `# wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        --2024-03-07 19:16:11--  https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        Resolving dl.google.com (dl.google.com)... 142.250.9.93, 142.250.9.91, 142.250.9.136, ...
+        Connecting to dl.google.com (dl.google.com)|142.250.9.93|:443... connected.
+        HTTP request sent, awaiting response... 200 OK
+        Length: 106071384 (101M) [application/x-debian-package]
+        Saving to: ‘google-chrome-stable_current_amd64.deb’
+
+        google-chrome-stable_cur 100%[==================================>] 101.16M  4.97MB/s    in 20s
+
+        2024-03-07 19:16:32 (4.97 MB/s) - ‘google-chrome-stable_current_amd64.deb’ saved [106071384/106071384]
+
+        root@FormR-Docker:~# sudo dpkg -i google-chrome-stable_current_amd64.deb
+        Selecting previously unselected package google-chrome-stable.
+        (Reading database ... 109252 files and directories currently installed.)
+        Preparing to unpack google-chrome-stable_current_amd64.deb ...
+        Unpacking google-chrome-stable (122.0.6261.111-1) ...
+        dpkg: dependency problems prevent configuration of google-chrome-stable:
+         google-chrome-stable depends on fonts-liberation; however:
+          Package fonts-liberation is not installed.
+         google-chrome-stable depends on libasound2 (>= 1.0.17); however:
+          Package libasound2 is not installed.
+         google-chrome-stable depends on libu2f-udev; however:
+          Package libu2f-udev is not installed.
+         google-chrome-stable depends on libvulkan1; however:
+          Package libvulkan1 is not installed.
+
+        dpkg: error processing package google-chrome-stable (--install):
+         dependency problems - leaving unconfigured
+        Processing triggers for man-db (2.10.2-1) ...
+        Errors were encountered while processing:
+         google-chrome-stable
+
+  fonts-liberation
+  libasound2 (>= 1.0.17)
+  libu2f-udev
+  libvulkan1
+
+    `# sudo apt install libnss3 libxss1 libsecret-1-0 libgtk2.0-0 libstdc++6 libpulse0 libxcb1 libgbm1 libasound2`
+
+    `# sudo apt install fonts-liberation libvulkan1 libu2f-udev libasound2
+        Reading package lists... Done
+        Building dependency tree... Done
+        Reading state information... Done
+        You might want to run 'apt --fix-broken install' to correct these.
+        The following packages have unmet dependencies:
+         libasound2 : Depends: libasound2-data (>= 1.2.6.1-1ubuntu1) but it is not going to be installed
+        E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+        Selecting previously unselected package libu2f-udev.
+        Preparing to unpack .../3-libu2f-udev_1.1.10-3build2_all.deb ...
+        Unpacking libu2f-udev (1.1.10-3build2) ...
+        Selecting previously unselected package libvulkan1:amd64.
+        Preparing to unpack .../4-libvulkan1_1.3.204.1-2_amd64.deb ...
+        Unpacking libvulkan1:amd64 (1.3.204.1-2) ...
+        Selecting previously unselected package alsa-topology-conf.
+        Preparing to unpack .../5-alsa-topology-conf_1.2.5.1-2_all.deb ...
+        Unpacking alsa-topology-conf (1.2.5.1-2) ...
+        Selecting previously unselected package alsa-ucm-conf.
+        Preparing to unpack .../6-alsa-ucm-conf_1.2.6.3-1ubuntu1.10_all.deb ...
+        Unpacking alsa-ucm-conf (1.2.6.3-1ubuntu1.10) ...
+        Selecting previously unselected package mesa-vulkan-drivers:amd64.
+        Preparing to unpack .../7-mesa-vulkan-drivers_23.2.1-1ubuntu3.1~22.04.2_amd64.deb ...
+        Unpacking mesa-vulkan-drivers:amd64 (23.2.1-1ubuntu3.1~22.04.2) ...
+        Setting up libu2f-udev (1.1.10-3build2) ...
+        Setting up libasound2-data (1.2.6.1-1ubuntu1) ...
+        Setting up libvulkan1:amd64 (1.3.204.1-2) ...
+        Setting up alsa-topology-conf (1.2.5.1-2) ...
+        Setting up libasound2:amd64 (1.2.6.1-1ubuntu1) ...
+        Setting up fonts-liberation (1:1.07.4-11) ...
+        Setting up mesa-vulkan-drivers:amd64 (23.2.1-1ubuntu3.1~22.04.2) ...
+        Setting up google-chrome-stable (122.0.6261.111-1) ...
+        update-alternatives: using /usr/bin/google-chrome-stable to provide /usr/bin/x-www-browser (x-www-browser) in auto mode
+        update-alternatives: using /usr/bin/google-chrome-stable to provide /usr/bin/gnome-www-browser (gnome-www-browser) in auto mode
+        update-alternatives: using /usr/bin/google-chrome-stable to provide /usr/bin/google-chrome (google-chrome) in auto mode
+        Setting up alsa-ucm-conf (1.2.6.3-1ubuntu1.10) ...
+        Processing triggers for fontconfig (2.13.1-4.2ubuntu5) ...
+        Processing triggers for libc-bin (2.35-0ubuntu3.6) ...
+        needrestart is being skipped since dpkg has failed
+
+    `# apt --fix-broken install
+        Reading package lists... Done
+        Building dependency tree... Done
+        Reading state information... Done
+        The following packages were automatically installed and are no longer required:
+          python3-cliapp python3-markdown python3-pygments python3-ttystatus
+        Use 'apt autoremove' to remove them.
+        0 upgraded, 0 newly installed, 0 to remove and 12 not upgraded.
+
+    `# sudo dpkg -i google-chrome-stable_current_amd64.deb`
+        (Reading database ... 110001 files and directories currently installed.)
+        Preparing to unpack google-chrome-stable_current_amd64.deb ...
+        Unpacking google-chrome-stable (122.0.6261.111-1) over (122.0.6261.111-1) ...
+        Setting up google-chrome-stable (122.0.6261.111-1) ...
+        Processing triggers for man-db (2.10.2-1) ...
+
+    `# google-chrome`
+        [17297:17297:0307/193650.711097:ERROR:zygote_host_impl_linux.cc(100)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+
+    `# google-chrome --no-sandbox`
+        [17313:17313:0307/193718.105165:ERROR:ozone_platform_x11.cc(243)] Missing X server or $DISPLAY
+        [17313:17313:0307/193718.105497:ERROR:env.cc(257)] The platform failed to initialize.  Exiting.
+
+-----------------------------------------------------------------------------------------------------------
+
+docs[0]: "Skip to main content\nDelivering to Midlothian 23112\nUpdate location\nElectronics\nAll Departments\nAlexa Skills\nAmazon Clinic\nAmazon Devices\nAmazon Fresh\nAmazon Pharmacy\nAmazon Warehouse\nAppliances\nApps & Games\nArts, Crafts & Sewing\nAudible Books & Originals\nAutomotive Parts & Accessories\nBaby\nBeauty & Personal Care\nBooks\nCDs & Vinyl\nCell Phones & Accessories\nClothing, Shoes & Jewelry\n   Women\n   Men\n   Girls\n   Boys\n   Baby\nCollectibles & Fine Art\nComputers\nCredit and Payment Cards\nDigital Music\nElectronics\nGarden & Outdoor\nGift Cards\nGrocery & Gourmet Food\nHandmade\nHealth, Household & Baby Care\nHome & Business Services\nHome & Kitchen\nIndustrial & Scientific\nJust for Prime\nKindle Store\nLuggage & Travel Gear\nLuxury Stores\nMagazine Subscriptions\nMovies & TV\nMusical Instruments\nOffice Products\nPet Supplies\nPremium Beauty\nPrime Video\nSmart Home\nSoftware\nSports & Outdoors\nSubscribe & Save\nSubscription Boxes\nTools & Home Improvement\nToys & Games\nUnder $10\nVideo Games\nWhole Foods Market\nEN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nAll\nDisability Customer Support\nMedical Care\nGroceries\nBest Sellers\nAmazon Basics\nPrime\nNew Releases\nCustomer Service\nMusic\nToday's Deals\nRegistry\nBooks\nPharmacy\nAmazon Home\nGift Cards\nFashion\nLuxury Stores\nSmart Home\nCoupons\nSell\nToys & Games\nFind a Gift\nComputers\nAutomotive\nHome Improvement\nHousehold, Health & Baby Care\nBeauty & Personal Care\nPet Supplies\nVideo Games\nWorks with Alexa\nSports & Outdoors\nShop women-owned businesses\nAll Electronics\nDeals\nBest Sellers\nTV & Video\nAudio & Home Theater\nComputers\nCamera & Photo\nWearable Technology\nCar Electronics & GPS\nPortable Audio\nCell Phones\nOffice Electronics\nMusical Instruments\nNew Arrivals\nTrade-In\n1-24 of over 8,000 results for \"projector 4k\"\nSort by:\nFeatured\nPrice: Low to High\nPrice: High to Low\nAvg. Customer Review\nBest Sellers\nSort by:Featured\nResults\nCheck each product page for other buying options.\nMini Projector 4K 1080P Support, Portable Projector WiFi6 BT 5.0 Android 11, Smart Projector Auto Horizontal Correction,180°Rotatable Outdoor Movie Projector Compatible with Phone\n4.5 out of 5 stars\n 3,528\n2K+ bought in past month\nLimited time deal\n$74.99\n$74\n.\n99 Typical: \n$89.99\n$89.99\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nPrice may vary by color\n+1 color/pattern\nGooDee Projector 4K With WiFi And Bluetooth Supported, FHD 1080P Mini Projector For Outdoor Moives, 5G Video Projector For Home Theater Dolby Audio Zoom Portable Projector TV Stick PPT (YG600 Plus)\n4.4 out of 5 stars\n 1,409\n1K+ bought in past month\nLimited time deal\n$169.98\n$169\n.\n98 List: \n$339.99\n$339.99\nSave $45.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nClimate Pledge Friendly\nMore Buying Choices\n$123.97(10 used & new offers)\nPrice may vary by color\n+1 color/pattern\n4K Support Projector with Wifi and Bluetooth, OWNKNEW Portable Mini Projectors for Outdoor Movies Use, Video Projector Compatible with TV Stick, Laptop, Smartphone, Xbox, PS5\n4.5 out of 5 stars\n 109\n1K+ bought in past month\nLimited time deal\n$99.99\n$99\n.\n99 Typical: \n$199.99\n$199.99\nSave $25.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMore Buying Choices\n$98.99(5 used & new offers)\n4K Projector with WiFi and Bluetooth, 12000 lumens Portable Native 1080P Mini Projector for iPhone, 5G Outdoor Movie Projectors for Home Cinema,HDMI,USB,VGA Supported\n4.2 out of 5 stars\n 149\n300+ bought in past month\n$59.99\n$59\n.\n99\nSave 5% on 2 select item(s)\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nOverall Pick\n[AI Auto Focus & Keystone] VOPLLS 4K Projector with Wifi and Bluetooth, Netflix Official Smart Video Projector, 600 ANSI Outdoor Movie Projector with Screen, 3D Dolby Audio/MAX 300'' Display.\n4.3 out of 5 stars\n 188\n900+ bought in past month\n$399.99\n$399\n.\n99\nSave 50% with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\n[Auto Focus/4K Support] Projector with WiFi 6 and Bluetooth 5.2, 600ANSI Native 1080P Outdoor Movie Projector, WiMiUS P62 Auto 6D Keystone & 50% Zoom, Smart Home Projector for iOS/Android/TV Stick\n4.7 out of 5 stars\n 1,525\n500+ bought in past month\nLimited time deal\n$189.99\n$189\n.\n99 Typical: \n$289.99\n$289.99\nSave 5% with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMore Buying Choices\n$182.39(9 used & new offers)\n[Auto Focus+Auto Lens Cap] 4K-Projector with WiFi 6 and Bluetooth: Upgrade 680 ANSI Native 1080P Jimveo Portable Outdoor Projector, Auto 6D Keystone&Zoom, Home LED Movie Projector for Outdoor/Home Use\n5.0 out of 5 stars\n 51\n50+ bought in past month\nLimited time deal\n$189.99\n$189\n.\n99 List: \n$289.99\n$289.99\nSave $30.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMore Buying Choices\n$182.39(4 used & new offers)\n[4D/4P Keystone] Projector With WiFi And Bluetooth 4K Supported, 750ANSI Lumens 2024 Upgraded, ONOAYO True 1080P Projector, Two-way Bluetooth, Compatible with iOS/Android/PC/PS4/TV Stick/HDMI/USB\n4.2 out of 5 stars\n 16\n400+ bought in past month\n$129.99\n$129\n.\n99 List: \n$399.99\n$399.99\nSave $45.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nCLOKOWE 4K Mini Projector with WiFi and Bluetooth, 180° Rotation & Auto Keystone, Full HD 1080P Supported, Portable HY300 Outdoor Movie Projector, Compatible with TV Stick/Windows/iOS/Android/HDMI/USB\n4.9 out of 5 stars\n 50\n50+ bought in past month\n$199.99\n$199\n.\n99\n25% off promotion available\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nAlso available in White\n+1 color/pattern\nBest Seller\nHAPPRUN Projector, Native 1080P Bluetooth Projector with 100\" Screen, Portable Outdoor Movie Projector, Mini Projector for Home Bedroom, Compatible with Smartphone,HDMI,USB,AV,Fire Stick,PS5\n4.4 out of 5 stars\n 5,767\n9K+ bought in past month\n$99.99\n$99\n.\n99 List: \n$119.99\n$119.99\nSave $20.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMore Buying Choices\n$75.49(15 used & new offers)\n[Auto Focus/Keystone] Android TV Projector 4K with Netflix Built in, VIZONY 800ANSI 5G WiFi Bluetooth Outdoor Projector, FHD Home Movie Projector with 4P4D/Zoom/PPT Compatible Phone/Laptop, 8000+ Apps\n4.7 out of 5 stars\n 325\n200+ bought in past month\n$359.99\n$359\n.\n99 Typical: \n$579.99\n$579.99\nSave $110.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMore Buying Choices\n$267.29(5 used & new offers)\nProjector with Wifi and Bluetooth,Native 4k,8K Supported Outdoor Projector, 20000 Lumen Bluetooth Projector for Home , Portable Movie Projector Compatible with HDMI, USB,TV Stick, iOS, Android\n4.6 out of 5 stars\n 317\n100+ bought in past month\n$359.99\n$359\n.\n99\nSave $179.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\n4K Projector, GooDee Projector with WiFi and Bluetooth, Mini Projector with Auto Keystone and Remote Focus, Native 1080P Home Theater Movie Projector Compatible with Phone/Laptop/TV Stick/Game/PPT\n4.4 out of 5 stars\n 3,163\n400+ bought in past month\nLimited time deal\n$149.99\n$149\n.\n99 Typical: \n$179.99\n$179.99\nSave $70.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\n5G WiFi 1080P Projector 4K Supported - OSQ 800 ANSI HD Outdoor Movie with Bluetooth, 4P & ±50° Keystone, Zoom 50%, 300'' Home Cinema Video Support PPT, PS4, TV Stick, Laptop, Phone, white (O-410)\n4.0 out of 5 stars\n 244\nLimited time deal\n$74.98\n$74\n.\n98 Typical: \n$149.98\n$149.98\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMini Projector, 2023 Upgraded CiBest 1080P Full HD Portable Projector, 12000L Outdoor Projector for Home Theater Movie Projector, Projector 4K Compatible with HDMI, VGA, USB, TV Stick, Laptop\n4.4 out of 5 stars\n 299\n400+ bought in past month\n$99.99\n$99\n.\n99\nSave 50% with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMore Buying Choices\n$62.54(5 used & new offers)\n[Netflix Certified & Dolby Audio] 4K Projector with Wifi6 & Bluetooth, WiMiUS 700ANSI Native 1080P 6D Auto Focus & Keystone Home Theater Smart Projector, Outdoor Movie Projecor with Netflix 7000+Apps\n5.0 out of 5 stars\n 100\n200+ bought in past month\n$399.99\n$399\n.\n99\nSave $130.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nProjector with WiFi and Bluetooth, 5G WiFi 4K HD 20000L Portable Movie Projector with Mini Tripod, Outdoor Projector Home Video Smart Projectors Compatible with iOS/Android/Laptop/TV Stick/HDMI/USB\n4.1 out of 5 stars\n 201\n200+ bought in past month\n$139.99\n$139\n.\n99 List: \n$199.99\n$199.99\nSave $30.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nNative 1080P Projector with 5G WiFi Bluetooth (with Tripod), 14000L 4K Supported Home Projector, Portable Outdoor Projector with Max 300\" Display, Movie Projector Compatible with TV Stick, HDMI, Phone\n4.4 out of 5 stars\n 586\n400+ bought in past month\n$99.99\n$99\n.\n99\nSave 30% with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\n[2024 Newest Auto Focus & Keystone] Projector with WiFi 6 and Bluetooth 5.2, ALVAR Portable Outdoor Projector 4K, Super Low Noise, Dust-Proof, 50% Zoom, 600 ANSI Native 1080P Proyector TV Stick PPT\n4.7 out of 5 stars\n 209\n300+ bought in past month\n$199.99\n$199\n.\n99 List: \n$299.99\n$299.99\nSave $70.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMore Buying Choices\n$190.07(2 used & new offers)\nProjector with WiFi and Bluetooth, 5G WiFi Native 1080P 10000L 4K Supported, FUDONI Portable Outdoor Projector with Screen for Home Theater, Compatible with HDMI/USB/PC/TV Box/iOS and Android Phone\n4.2 out of 5 stars\n 1,552\n500+ bought in past month\n$139.99\n$139\n.\n99 Typical: \n$249.99\n$249.99\nSave $50.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nClimate Pledge Friendly\nMore Buying Choices\n$102.95(8 used & new offers)\nPopular Brand Pick\n4K Support Projector with Wifi and Bluetooth, HOMPOW Mini Portable Projectors for Outdoor Home Movie, Compatible with Laptop, Smartphone, TV Stick, Xbox, PS5\n4.3 out of 5 stars\n 856\n400+ bought in past month\n$129.99\n$129\n.\n99 Typical: \n$149.99\n$149.99\nSave 40% with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMore Buying Choices\n$97.90(6 used & new offers)\n[Auto Focus] YABER Pro V9 4K Projector with WiFi 6 and Bluetooth 5.2, 500 ANSI Native 1080P Outdoor Movie Projector, Auto 6D Keystone & 50% Zoom, Home Theater Projector for Phone/TV Stick/PC\n4.5 out of 5 stars\n 3,460\n500+ bought in past month\n$289.99\n$289\n.\n99 List: \n$359.99\n$359.99\nSave $120.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMore Buying Choices\n$163.13(5 used & new offers)\nAlso available in Black\n+1 color/pattern\n4K Projector with Wifi and Bluetooth, ELEPHAS Outdoor Movie Projector with NETFLIX/Prime Video/YouTube Built-in, 100,000+ Apps Supported, Video Projector Compatible with HDMI/USB/iOS/Android/Windows\n4.5 out of 5 stars\n 915\n50+ bought in past month\n$499.99\n$499\n.\n99\nSave $100.00 with coupon\nFREE delivery Wed, Mar 13\nOr fastest delivery Mon, Mar 11\nMore Buying Choices\n$436.79(6 used & new offers)\nLG CineBeam UHD 4K Projector HU70LA - DLP Home Theater Smart Projector with Alexa Built-In, White\n4.2 out of 5 stars\n 385\n50+ bought in past month\n$1,379.69\n$1,379\n.\n69 List: \n$1,499.99\n$1,499.99\nFREE delivery Mar 15 - 18\nOr fastest delivery Mar 12 - 14\nOnly 10 left in stock - order soon.\nAlexa Built-in\nMore Buying Choices\n$726.37(30 used & new offers)\nRelated searches\n\t\nprojector\n\t\nprojector 4k with screen\n\t\nprojector screen\n\t\nprojector stand\n\t\nprojector 4k bluetooth wifi\n\t\nprojector 4k samsung\nPrevious123348Next\nNeed help?\nVisit the help section or contact us\nGo back to filtering menu\nSkip to main search results\nEligible for Free Shipping\nFree Shipping by Amazon\nGet FREE Shipping on eligible orders shipped by Amazon\nDelivery Day\nGet It by Tomorrow\nMore-sustainable Products\nClimate Pledge Friendly\nDepartment\n Any Department\nElectronics\nElectronics Accessories & Supplies\nCamera & Photo\nVehicle Electronics\nCell Phones & Accessories\nComputers & Accessories\nElectronic Protection Plans\nGPS, Finders & Accessories\nHome Audio & Theater Products\nOffice Electronics Products\nPortable Audio & Video\nSecurity & Surveillance Equipment\nComputers & Electronics Service Plans\nTelevisions & Video Products\nVideo Game Consoles & Accessories\nVideo Projectors\nWearable Technology\neBook Readers & Accessories\nHeadphones, Earbuds & Accessories\nHousehold Batteries, Chargers & Accessories\nPower Accessories\nComputer Tablets\nCustomer Reviews\n4 Stars & Up\n & Up\n3 Stars & Up\n & Up\n2 Stars & Up\n & Up\n1 Star & Up\n & Up\nFeatured Brands\nEpson\nSony\nLG\nViewSonic\nWiMiUS\nNexiGo\nYABER\nSee more\nPrice\nUnder $25\n$25 to $50\n$50 to $100\n$100 to $200\n$200 & Above\n$\n \n$\n \nGo\nDeals & Discounts\nAll Discounts\nToday's Deals\nUsage\nGaming\nHome Theater\nPortable\nConnectivity Technology\n3.5mm Jack\nBluetooth\nEthernet\nHDMI\nUSB\nWi-Fi\nBusiness Type\nSmall Business\nHeight Top to Bottom\nUp to 2.9 in\n3 to 3.9 in\n4 to 4.9 in\n5 in & above\nItem Length Longer Edge\nUp to 7.9 in\n8 to 11.9 in\n12 to 15.9 in\n16 in & above\nItem Width Shorter Edge\nUp to 5.9 in\n6 to 6.9 in\n7 to 7.9 in\n8 in & above\nController Type\nRemote Control\nApp Control\nButton Control\nTouchpad Control\nVoice Control\nNative Resolution\n800 x 480\n854 x 480\n960 x 540\n1024 x 768\n1280 x 720\n1280 x 800\n1920 x 1080\nSee more\nDisplay Type\nDLP\nLaser\nLCD\nLED\nMounting Type\nCeiling Mount\nTable Mount\nWall Mount\nSpecial Features\n3d-Ready\nBuilt-In Speaker\nBuilt-In Wi-Fi\nDigital Keystone Correction\nShort Throw\nUltra Short Throw\nAuto Focus\nSee more\nRecommended Uses For Product\nBusiness\nEducation\nGaming\nHome Cinema\nForm Factor\nDesktop\nPocket\nPortable\nIncluded Components\nAV Cable\nBattery\nCarrying Bag\nCleaning Kit\nHDMI Cable\nPower Cord\nProjector Lens Cover\nSee more\nFrom Our Brands\nAmazon Brands\nTop Brands in Electronics\nTop Brands\nPackaging Option\nFrustration-Free Packaging\nImage Brightness\nUp to 999 lm\n1000 to 1499 lm\n1500 to 1999 lm\n2000 to 2499 lm\n2500 to 2999 lm\n3000 lm & above\nContrast Ratio\n0 to 999:1\n1,000 to 1,999:1\n2,000 to 2,999:1\n3,000 to 4,999:1\n5,000 to 9,999:1\n10,000 to 19,999:1\n20,000 to 49,999:1\n50,000+:1\nWeight\n4.9 lbs & Under\n5 to 9.9 lbs\n10 lbs & Above\nAspect Ratio\n4:3\n16:9\n16:10\nNew & Upcoming\nNew Arrivals\nCertifications\nEnergy Star\nAmazon Global Store\nAmazon Global Store\nInternational Shipping\nInternational Shipping Eligible\nCondition\nNew\nRenewed\nUsed\nSeller\nAmazon Warehouse\nAmazon.com\nAlliance(Supply)\nSpaceBound\nPCNation\nElite Screens FBA\nwestlake\nAvailability\nInclude Out of Stock\nBack to top\nGet to Know Us\nCareers\nAmazon Newsletter\nAbout Amazon\nAccessibility\nSustainability\nPress Center\nInvestor Relations\nAmazon Devices\nAmazon Science\n\t\t\nMake Money with Us\nSell more with Amazon\nSell apps on Amazon\nSupply to Amazon\nProtect & Build Your Brand\nBecome an Affiliate\nBecome a Delivery Driver\nStart a Package Delivery Business\nAdvertise Your Products\nSelf-Publish with Us\nHost an Amazon Hub\n›See More Ways to Make Money\n\t\t\nAmazon Payment Products\nAmazon Visa\nAmazon Store Card\nAmazon Secured Card\nAmazon Business Card\nShop with Points\nCredit Card Marketplace\nReload Your Balance\nGift Cards\nAmazon Currency Converter\n\t\t\nLet Us Help You\nYour Account\nYour Orders\nShipping Rates & Policies\nAmazon Prime\nReturns & Replacements\nManage Your Content and Devices\nRecalls and Product Safety Alerts\nHelp\n \nEnglish United States\nAmazon Music\nStream millions\nof songs\t\tAmazon Ads\nReach customers\nwherever they\nspend their time\t\t6pm\nScore deals\non fashion brands\t\tAbeBooks\nBooks, art\n& collectibles\t\tACX\nAudiobook Publishing\nMade Easy\t\tSell on Amazon\nStart a Selling Account\t\tAmazon Business\nEverything For\nYour Business\n \nAmazon Fresh\nGroceries & More\nRight To Your Door\t\tAmazonGlobal\nShip Orders\nInternationally\t\tHome Services\nExperienced Pros\nHappiness Guarantee\t\tAmazon Web Services\nScalable Cloud\nComputing Services\t\tAudible\nListen to Books & Original\nAudio Performances\t\tBox Office Mojo\nFind Movie\nBox Office Data\t\tGoodreads\nBook reviews\n& recommendations\n \nIMDb\nMovies, TV\n& Celebrities\t\tIMDbPro\nGet Info Entertainment\nProfessionals Need\t\tKindle Direct Publishing\nIndie Digital & Print Publishing\nMade Easy\t\tAmazon Photos\nUnlimited Photo Storage\nFree With Prime\t\tPrime Video Direct\nVideo Distribution\nMade Easy\t\tShopbop\nDesigner\nFashion Brands\t\tAmazon Warehouse\nGreat Deals on\nQuality Used Products\n \nWhole Foods Market\nAmerica’s Healthiest\nGrocery Store\t\tWoot!\nDeals and\nShenanigans\t\tZappos\nShoes &\nClothing\t\tRing\nSmart Home\nSecurity Systems\t\teero WiFi\nStream 4K Video\nin Every Room\t\tBlink\nSmart Security\nfor Every Home\t\tNeighbors App\nReal-Time Crime\n& Safety Alerts\n \n \t\t \t\tAmazon Subscription Boxes\nTop subscription boxes – right to your door\t\tPillPack\nPharmacy Simplified\t\tAmazon Renewed\nLike-new products\nyou can trust\t\t \t\t \nConditions of Use\nPrivacy Notice\nYour Ads Privacy Choices\n© 1996-2024, Amazon.com, Inc. or its affiliates"
+
+

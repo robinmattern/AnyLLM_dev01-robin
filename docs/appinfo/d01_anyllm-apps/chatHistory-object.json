@@ -1,0 +1,852 @@
+[
+    {
+        "role": "user",
+        "content": "what is on these pages",
+        "sentAt": 1709649182
+    },
+    {
+        "role": "assistant",
+        "content": "Amazon Music, Amazon Ads, 6pm, AbeBooks, ACX, Sell on Amazon, Amazon Business, Amazon Fresh, AmazonGlobal, Home Services, Amazon Web Services, Audible, Box Office Mojo, Goodreads, IMDb, IMDbPro, Kindle Direct Publishing, Amazon Photos, Prime Video Direct, Shopbop, Amazon Warehouse, Whole Foods Market, Woot!, Zappos, Ring, eero WiFi, Blink, Neighbors App, Amazon Subscription Boxes, PillPack, Amazon Renewed, Amazon Store Card, Amazon Secured Card, Amazon Business Card, Shop with Points, Credit Card Marketplace, Reload Your Balance, Gift Cards, Amazon Currency Converter, Let Us Help You, Your Account, Your Orders, Shipping Rates & Policies, Amazon Prime, Returns & Replacements, Manage Your Content and Devices, Recalls and Product Safety Alerts.",
+        "sources": [
+            {
+                "id": "f2ce69f2-e36b-4c7b-bda4-4aecaf9ca327",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "Help\n \nEnglish United States\nAmazon Music\nStream millions\nof songs\t\tAmazon Ads\nReach customers\nwherever they\nspend their time\t\t6pm\nScore deals\non fashion brands\t\tAbeBooks\nBooks, art\n& collectibles\t\tACX\nAudiobook Publishing\nMade Easy\t\tSell on Amazon\nStart a Selling Account\t\tAmazon Business\nEverything For\nYour Business\n \nAmazon Fresh\nGroceries & More\nRight To Your Door\t\tAmazonGlobal\nShip Orders\nInternationally\t\tHome Services\nExperienced Pros\nHappiness Guarantee\t\tAmazon Web Services\nScalable Cloud\nComputing Services\t\tAudible\nListen to Books & Original\nAudio Performances\t\tBox Office Mojo\nFind Movie\nBox Office Data\t\tGoodreads\nBook reviews\n& recommendations\n \nIMDb\nMovies, TV\n& Celebrities\t\tIMDbPro\nGet Info Entertainment\nProfessionals Need\t\tKindle Direct Publishing\nIndie Digital & Print Publishing\nMade Easy\t\tAmazon Photos\nUnlimited Photo Storage\nFree With Prime\t\tPrime Video Direct\nVideo Distribution\nMade Easy\t\tShopbop\nDesigner\nFashion Brands\t\tAmazon Warehouse\nGreat Deals on",
+                "score": 0.6901832818984985
+            },
+            {
+                "id": "fc9e23f6-f41f-4a8f-a813-31c55ae80509",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=instant-video&crid=2VOPM9RTZWLEE&sprefix=projector+4k%2Cinstant-video%2C74&ref=nb_sb_noss_2",
+                "published": "3/3/2024, 6:29:49 PM",
+                "wordCount": 1325,
+                "token_count_estimate": 3353,
+                "text": "IMDb\nMovies, TV\n& Celebrities\t\tIMDbPro\nGet Info Entertainment\nProfessionals Need\t\tKindle Direct Publishing\nIndie Digital & Print Publishing\nMade Easy\t\tAmazon Photos\nUnlimited Photo Storage\nFree With Prime\t\tPrime Video Direct\nVideo Distribution\nMade Easy\t\tShopbop\nDesigner\nFashion Brands\t\tAmazon Warehouse\nGreat Deals on\nQuality Used Products\n \nWhole Foods Market\nAmerica’s Healthiest\nGrocery Store\t\tWoot!\nDeals and\nShenanigans\t\tZappos\nShoes &\nClothing\t\tRing\nSmart Home\nSecurity Systems\t\teero WiFi\nStream 4K Video\nin Every Room\t\tBlink\nSmart Security\nfor Every Home\t\tNeighbors App\nReal-Time Crime\n& Safety Alerts\n \n \t\t \t\tAmazon Subscription Boxes\nTop subscription boxes – right to your door\t\tPillPack\nPharmacy Simplified\t\tAmazon Renewed\nLike-new products\nyou can trust\t\t \t\t \nConditions of Use\nPrivacy Notice\nYour Ads Privacy Choices\n© 1996-2024, Amazon.com, Inc. or its affiliates",
+                "score": 0.7255388498306274
+            },
+            {
+                "id": "62de28eb-5d42-4e3f-917a-93a103acc44a",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=instant-video&crid=2VOPM9RTZWLEE&sprefix=projector+4k%2Cinstant-video%2C74&ref=nb_sb_noss_2",
+                "published": "3/3/2024, 6:29:49 PM",
+                "wordCount": 1325,
+                "token_count_estimate": 3353,
+                "text": "Amazon Store Card\nAmazon Secured Card\nAmazon Business Card\nShop with Points\nCredit Card Marketplace\nReload Your Balance\nGift Cards\nAmazon Currency Converter\n\t\t\nLet Us Help You\nYour Account\nYour Orders\nShipping Rates & Policies\nAmazon Prime\nReturns & Replacements\nManage Your Content and Devices\nRecalls and Product Safety Alerts\nHelp\n \nEnglish United States\nAmazon Music\nStream millions\nof songs\t\tAmazon Ads\nReach customers\nwherever they\nspend their time\t\t6pm\nScore deals\non fashion brands\t\tAbeBooks\nBooks, art\n& collectibles\t\tACX\nAudiobook Publishing\nMade Easy\t\tSell on Amazon\nStart a Selling Account\t\tAmazon Business\nEverything For\nYour Business\n \nAmazon Fresh\nGroceries & More\nRight To Your Door\t\tAmazonGlobal\nShip Orders\nInternationally\t\tHome Services\nExperienced Pros\nHappiness Guarantee\t\tAmazon Web Services\nScalable Cloud\nComputing Services\t\tAudible\nListen to Books & Original\nAudio Performances\t\tBox Office Mojo\nFind Movie\nBox Office Data\t\tGoodreads\nBook reviews\n& recommendations\n \nIMDb",
+                "score": 0.7387055158615112
+            }
+        ],
+        "chatId": 5,
+        "sentAt": 1709649182,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "is these anything about toptro 4k projectors",
+        "sentAt": 1709649630
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, there is information about TOPTRO 4K projectors on these pages.",
+        "sources": [
+            {
+                "id": "7124bfcb-cc01-4d32-9228-4236969946fe",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "TOPTRO\nX5 5G WiFi Bluetooth Projector, 460 ANSI Lumen Full HD Native 1080P Projector, Outdoor Projector 4K Support 4P/4D Keystone, Zoom, 300\" Display, PPT, for Home Theater and Small Office Use\n4.3 out of 5 stars\n 1,712\n$199.99\n$199\n.\n99\nSave $99.00 with coupon\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6\nAlso available in white\n+1 color/pattern\n[Electric-Focus] Mini Projector, TOPTRO TR25 Outdoor Projector with WiFi and Bluetooth 5.2, 15000 Lumens 1080P Full HD, ±40° Electric Keystone Correction, Portable Projector for iOS/Android/PS5\n4.5 out of 5 stars\n 613\n400+ bought in past month\n$109.99\n$109\n.\n99 Typical: \n$139.99\n$139.99\nSave $30.00 with coupon\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6\nMore Buying Choices\n$92.80(4 used & new offers)\n[Electric-Focus] 5G WiFi Bluetooth Projector, TOPTRO TR23 Mini Projector Support 1080P, 15000 Lumen, 4D/4P Keystone& Zoom, Latest Dust-Proof Portable Projector, Outdoor Projector for iOS/Android/PS5",
+                "score": 0.36352360248565674
+            },
+            {
+                "id": "6e8272b9-720f-482a-837e-3054a4bb9c8e",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "4.5 out of 5 stars\n 1,238\n500+ bought in past month\n$104.99\n$104\n.\n99 Typical: \n$149.99\n$149.99\nSave $15.00 with coupon\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6\nMore Buying Choices\n$102.26(7 used & new offers)\nOverall Pick\n4K Projector with WiFi and Bluetooth, TOPTRO 2023 Upgraded X3 Native 1080P Projector 4K Support, 16000 Lumen, 4P/4D Keystone, 300\" Display, 50% Zoom, Outdoor Projector for iOS/Android/ TV Stick/PS5\n4.3 out of 5 stars\n 308\n$199.99\n$199\n.\n99\nFREE delivery Tue, Mar 12\nOr fastest delivery Thu, Mar 7\nOnly 4 left in stock - order soon.\nMore Buying Choices\n$101.73(3 used & new offers)\n[Auto Focus/Keystone] TOPTRO X7 Android TV Projector with WiFi and Bluetooth, Smart Projector 4K Supported, 600 ANSI, Dust-proof, 50% Zoom, Outdoor Projector with Netflix/YouTube Built-in, 8000+ Apps\n4.5 out of 5 stars\n 200\nNo featured offers available\n$230.00(1 new offer)",
+                "score": 0.36927151679992676
+            },
+            {
+                "id": "8e28c2f0-2c1c-4def-b1f5-c523344c1606",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "[Auto Focus/Keystone] Android TV Projector 4K with Netflix Built in, VIZONY 800ANSI 5G WiFi Bluetooth Outdoor Projector, FHD Home Movie Projector with 4P4D/Zoom/PPT Compatible Phone/Laptop, 8000+ Apps\n4.7 out of 5 stars\n 324\n300+ bought in past month\n$359.99\n$359\n.\n99 Typical: \n$579.99\n$579.99\nSave $110.00 with coupon\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6\nMore Buying Choices\n$285.11(6 used & new offers)\n5G WiFi Bluetooth Projector, TOPTRO TR22 Outdoor Projector 4K Supported, 500 ANSI Lumen, Smart Touch Keys, 4D/4P Keystone Correction, Full Sealed Optical Movie Projector Compatible with iOS/Android\n4.4 out of 5 stars\n 16\n$299.99\n$299\n.\n99\nFREE delivery\n[Auto Focus/Keystone] TOPTRO X7 Android TV Projector with WiFi and Bluetooth, Smart Projector 4K Supported, 600 ANSI, Dust-proof, 50% Zoom, Outdoor Projector with Netflix/YouTube Built-in, 8000+ Apps\n5.0 out of 5 stars\n 105\n$289.99\n$289\n.\n99\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6",
+                "score": 0.40322738885879517
+            },
+            {
+                "id": "5675edfc-669d-49c3-a691-1c8f4f519837",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "More Buying Choices\n$164.73(2 used & new offers)\n5G WiFi Bluetooth Projector, TOPTRO TR22 Outdoor Projector 4K Supported, 500 ANSI Lumen, Smart Touch Keys, 4D/4P Keystone Correction, Full Sealed Optical Movie Projector Compatible with iOS/Android\n4.5 out of 5 stars\n 57\n[AI Auto Focus & Keystone] VOPLLS 4K Projector with Wifi and Bluetooth, Netflix Official Smart Video Projector, 600 ANSI Outdoor Movie Projector with Screen, 3D Dolby Audio/MAX 300'' Display.\n4.3 out of 5 stars\n 184\n900+ bought in past month\n$399.99\n$399\n.\n99\nSave 50% with coupon\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6\nFHD 1080P Projector 4K Support, 800ANSI 5G WiFi Bluetooth Projector, Outdoor Projector with Full-Sealed Engine/Electric Focus/4P4D/PPT/Zoom, Home Movie Projector Compatible w/iOS/Android/PC/TV\n4.8 out of 5 stars\n 669\n300+ bought in past month\nLimited time deal\n$254.99\n$254\n.\n99 List: \n$499.99\n$499.99\nSave $70.00 with coupon\nFREE delivery Sun, Mar 10\nOr fastest delivery Thu, Mar 7",
+                "score": 0.427626371383667
+            }
+        ],
+        "chatId": 6,
+        "sentAt": 1709649630,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "Can you list the TOPTRO products",
+        "sentAt": 1709651978
+    },
+    {
+        "role": "assistant",
+        "content": "- TOPTRO X5 5G WiFi Bluetooth Projector\n- [Electric-Focus] Mini Projector, TOPTRO TR25\n- [Electric-Focus] 5G WiFi Bluetooth Projector, TOPTRO TR23\n- 4K Projector with WiFi and Bluetooth, TOPTRO 2023 Upgraded X3\n- [Auto Focus/Keystone] TOPTRO X7 Android TV Projector",
+        "sources": [
+            {
+                "id": "3081501c-f54b-4d44-ac65-4321ae8d0875",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "EN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nAll\nDisability Customer Support\nMedical Care\nGroceries\nBest Sellers\nAmazon Basics\nPrime\nNew Releases\nCustomer Service\nMusic\nToday's Deals\nRegistry\nBooks\nPharmacy\nAmazon Home\nGift Cards\nFashion\nLuxury Stores\nSmart Home\nCoupons\nSell\nToys & Games\nFind a Gift\nComputers\nAutomotive\nHome Improvement\nHousehold, Health & Baby Care\nBeauty & Personal Care\nPet Supplies\nVideo Games\nWorks with Alexa\nSports & Outdoors\nShop women-owned businesses\nAll Electronics\nDeals\nBest Sellers\nTV & Video\nAudio & Home Theater\nComputers\nCamera & Photo\nWearable Technology\nCar Electronics & GPS\nPortable Audio\nCell Phones\nOffice Electronics\nMusical Instruments\nNew Arrivals\nTrade-In\n1-24 of 30 results for \"toptro 4k\"\nSort by:\nFeatured\nPrice: Low to High\nPrice: High to Low\nAvg. Customer Review\nBest Sellers\nSort by:Featured\nResults\nCheck each product page for other buying options.\nTOPTRO",
+                "score": 0.410294771194458
+            },
+            {
+                "id": "7124bfcb-cc01-4d32-9228-4236969946fe",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "TOPTRO\nX5 5G WiFi Bluetooth Projector, 460 ANSI Lumen Full HD Native 1080P Projector, Outdoor Projector 4K Support 4P/4D Keystone, Zoom, 300\" Display, PPT, for Home Theater and Small Office Use\n4.3 out of 5 stars\n 1,712\n$199.99\n$199\n.\n99\nSave $99.00 with coupon\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6\nAlso available in white\n+1 color/pattern\n[Electric-Focus] Mini Projector, TOPTRO TR25 Outdoor Projector with WiFi and Bluetooth 5.2, 15000 Lumens 1080P Full HD, ±40° Electric Keystone Correction, Portable Projector for iOS/Android/PS5\n4.5 out of 5 stars\n 613\n400+ bought in past month\n$109.99\n$109\n.\n99 Typical: \n$139.99\n$139.99\nSave $30.00 with coupon\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6\nMore Buying Choices\n$92.80(4 used & new offers)\n[Electric-Focus] 5G WiFi Bluetooth Projector, TOPTRO TR23 Mini Projector Support 1080P, 15000 Lumen, 4D/4P Keystone& Zoom, Latest Dust-Proof Portable Projector, Outdoor Projector for iOS/Android/PS5",
+                "score": 0.5490884780883789
+            },
+            {
+                "id": "6e8272b9-720f-482a-837e-3054a4bb9c8e",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "4.5 out of 5 stars\n 1,238\n500+ bought in past month\n$104.99\n$104\n.\n99 Typical: \n$149.99\n$149.99\nSave $15.00 with coupon\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6\nMore Buying Choices\n$102.26(7 used & new offers)\nOverall Pick\n4K Projector with WiFi and Bluetooth, TOPTRO 2023 Upgraded X3 Native 1080P Projector 4K Support, 16000 Lumen, 4P/4D Keystone, 300\" Display, 50% Zoom, Outdoor Projector for iOS/Android/ TV Stick/PS5\n4.3 out of 5 stars\n 308\n$199.99\n$199\n.\n99\nFREE delivery Tue, Mar 12\nOr fastest delivery Thu, Mar 7\nOnly 4 left in stock - order soon.\nMore Buying Choices\n$101.73(3 used & new offers)\n[Auto Focus/Keystone] TOPTRO X7 Android TV Projector with WiFi and Bluetooth, Smart Projector 4K Supported, 600 ANSI, Dust-proof, 50% Zoom, Outdoor Projector with Netflix/YouTube Built-in, 8000+ Apps\n4.5 out of 5 stars\n 200\nNo featured offers available\n$230.00(1 new offer)",
+                "score": 0.5983362197875977
+            },
+            {
+                "id": "8e28c2f0-2c1c-4def-b1f5-c523344c1606",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "[Auto Focus/Keystone] Android TV Projector 4K with Netflix Built in, VIZONY 800ANSI 5G WiFi Bluetooth Outdoor Projector, FHD Home Movie Projector with 4P4D/Zoom/PPT Compatible Phone/Laptop, 8000+ Apps\n4.7 out of 5 stars\n 324\n300+ bought in past month\n$359.99\n$359\n.\n99 Typical: \n$579.99\n$579.99\nSave $110.00 with coupon\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6\nMore Buying Choices\n$285.11(6 used & new offers)\n5G WiFi Bluetooth Projector, TOPTRO TR22 Outdoor Projector 4K Supported, 500 ANSI Lumen, Smart Touch Keys, 4D/4P Keystone Correction, Full Sealed Optical Movie Projector Compatible with iOS/Android\n4.4 out of 5 stars\n 16\n$299.99\n$299\n.\n99\nFREE delivery\n[Auto Focus/Keystone] TOPTRO X7 Android TV Projector with WiFi and Bluetooth, Smart Projector 4K Supported, 600 ANSI, Dust-proof, 50% Zoom, Outdoor Projector with Netflix/YouTube Built-in, 8000+ Apps\n5.0 out of 5 stars\n 105\n$289.99\n$289\n.\n99\nFREE delivery Sun, Mar 10\nOr fastest delivery Tomorrow, Mar 6",
+                "score": 0.6436458230018616
+            }
+        ],
+        "chatId": 7,
+        "sentAt": 1709651978,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "Can  you list  the price and category for each product?",
+        "sentAt": 1709757011
+    },
+    {
+        "role": "assistant",
+        "content": "- TOPTRO X5 5G WiFi Bluetooth Projector: Category - Projectors, Price - varies\n- [Electric-Focus] Mini Projector, TOPTRO TR25: Category - Projectors, Price - varies\n- [Electric-Focus] 5G WiFi Bluetooth Projector, TOPTRO TR23: Category - Projectors, Price - varies\n- 4K Projector with WiFi and Bluetooth, TOPTRO 2023 Upgraded X3: Category - Projectors, Price - varies\n- [Auto Focus/Keystone] TOPTRO X7 Android TV Projector: Category - Projectors, Price - varies",
+        "sources": [
+            {
+                "id": "f2ce69f2-e36b-4c7b-bda4-4aecaf9ca327",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "Help\n \nEnglish United States\nAmazon Music\nStream millions\nof songs\t\tAmazon Ads\nReach customers\nwherever they\nspend their time\t\t6pm\nScore deals\non fashion brands\t\tAbeBooks\nBooks, art\n& collectibles\t\tACX\nAudiobook Publishing\nMade Easy\t\tSell on Amazon\nStart a Selling Account\t\tAmazon Business\nEverything For\nYour Business\n \nAmazon Fresh\nGroceries & More\nRight To Your Door\t\tAmazonGlobal\nShip Orders\nInternationally\t\tHome Services\nExperienced Pros\nHappiness Guarantee\t\tAmazon Web Services\nScalable Cloud\nComputing Services\t\tAudible\nListen to Books & Original\nAudio Performances\t\tBox Office Mojo\nFind Movie\nBox Office Data\t\tGoodreads\nBook reviews\n& recommendations\n \nIMDb\nMovies, TV\n& Celebrities\t\tIMDbPro\nGet Info Entertainment\nProfessionals Need\t\tKindle Direct Publishing\nIndie Digital & Print Publishing\nMade Easy\t\tAmazon Photos\nUnlimited Photo Storage\nFree With Prime\t\tPrime Video Direct\nVideo Distribution\nMade Easy\t\tShopbop\nDesigner\nFashion Brands\t\tAmazon Warehouse\nGreat Deals on",
+                "score": 0.6445705890655518
+            },
+            {
+                "id": "d7b17c6b-ce6e-4eef-85bd-9811dfaf0bb8",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=instant-video&crid=2VOPM9RTZWLEE&sprefix=projector+4k%2Cinstant-video%2C74&ref=nb_sb_noss_2",
+                "published": "3/3/2024, 6:29:49 PM",
+                "wordCount": 1325,
+                "token_count_estimate": 3353,
+                "text": "Skip to main content\nPrime Video\nPrime Video\nAll Departments\nAlexa Skills\nAmazon Clinic\nAmazon Devices\nAmazon Fresh\nAmazon Pharmacy\nAmazon Warehouse\nAppliances\nApps & Games\nArts, Crafts & Sewing\nAudible Books & Originals\nAutomotive Parts & Accessories\nBaby\nBeauty & Personal Care\nBooks\nCDs & Vinyl\nCell Phones & Accessories\nClothing, Shoes & Jewelry\n   Women\n   Men\n   Girls\n   Boys\n   Baby\nCollectibles & Fine Art\nComputers\nCredit and Payment Cards\nDigital Music\nElectronics\nGarden & Outdoor\nGift Cards\nGrocery & Gourmet Food\nHandmade\nHealth, Household & Baby Care\nHome & Business Services\nHome & Kitchen\nIndustrial & Scientific\nJust for Prime\nKindle Store\nLuggage & Travel Gear\nLuxury Stores\nMagazine Subscriptions\nMovies & TV\nMusical Instruments\nOffice Products\nPet Supplies\nPremium Beauty\nSmart Home\nSoftware\nSports & Outdoors\nSubscribe & Save\nSubscription Boxes\nTools & Home Improvement\nToys & Games\nUnder $10\nVideo Games\nWhole Foods Market\nEN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0",
+                "score": 0.6525061130523682
+            },
+            {
+                "id": "3081501c-f54b-4d44-ac65-4321ae8d0875",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "EN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nAll\nDisability Customer Support\nMedical Care\nGroceries\nBest Sellers\nAmazon Basics\nPrime\nNew Releases\nCustomer Service\nMusic\nToday's Deals\nRegistry\nBooks\nPharmacy\nAmazon Home\nGift Cards\nFashion\nLuxury Stores\nSmart Home\nCoupons\nSell\nToys & Games\nFind a Gift\nComputers\nAutomotive\nHome Improvement\nHousehold, Health & Baby Care\nBeauty & Personal Care\nPet Supplies\nVideo Games\nWorks with Alexa\nSports & Outdoors\nShop women-owned businesses\nAll Electronics\nDeals\nBest Sellers\nTV & Video\nAudio & Home Theater\nComputers\nCamera & Photo\nWearable Technology\nCar Electronics & GPS\nPortable Audio\nCell Phones\nOffice Electronics\nMusical Instruments\nNew Arrivals\nTrade-In\n1-24 of 30 results for \"toptro 4k\"\nSort by:\nFeatured\nPrice: Low to High\nPrice: High to Low\nAvg. Customer Review\nBest Sellers\nSort by:Featured\nResults\nCheck each product page for other buying options.\nTOPTRO",
+                "score": 0.6583625078201294
+            },
+            {
+                "id": "15aa2ca5-fd8b-46e0-a026-6f2c513e000a",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=toptro+4k&i=electronics&ref=nb_sb_noss",
+                "published": "3/5/2024, 9:27:01 AM",
+                "wordCount": 1749,
+                "token_count_estimate": 4471,
+                "text": "International Shipping Eligible\nCondition\nNew\nUsed\nSeller\nEZ-Clean-and-fresh LLC\nJPin Direct\nSainyer Store\nWhyOne\n???666\nEUG-Projector\nAmazon Warehouse\nAvailability\nInclude Out of Stock\nBack to top\nGet to Know Us\nCareers\nAmazon Newsletter\nAbout Amazon\nAccessibility\nSustainability\nPress Center\nInvestor Relations\nAmazon Devices\nAmazon Science\n\t\t\nMake Money with Us\nSell on Amazon\nSell apps on Amazon\nSupply to Amazon\nProtect & Build Your Brand\nBecome an Affiliate\nBecome a Delivery Driver\nStart a Package Delivery Business\nAdvertise Your Products\nSelf-Publish with Us\nHost an Amazon Hub\n›See More Ways to Make Money\n\t\t\nAmazon Payment Products\nAmazon Visa\nAmazon Store Card\nAmazon Secured Card\nAmazon Business Card\nShop with Points\nCredit Card Marketplace\nReload Your Balance\nGift Cards\nAmazon Currency Converter\n\t\t\nLet Us Help You\nYour Account\nYour Orders\nShipping Rates & Policies\nAmazon Prime\nReturns & Replacements\nManage Your Content and Devices\nRecalls and Product Safety Alerts\nHelp",
+                "score": 0.6629781723022461
+            }
+        ],
+        "chatId": 8,
+        "sentAt": 1709757011,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "how many products",
+        "sentAt": 1710141257
+    },
+    {
+        "role": "assistant",
+        "content": "There are five TOPTRO products listed.",
+        "sources": [
+            {
+                "id": "f377277a-58f7-4f5e-b9ba-1a5cb966cbce",
+                "url": "file://E:\\Repos\\Robin\\AnyLM_\\dev01-robin\\collector\\hotdir\\ai240310_url-www-amazon_v03.txt",
+                "title": "ai240310_url-www-amazon_v03.txt",
+                "docAuthor": "Unknown",
+                "description": "Unknown",
+                "docSource": "a text file uploaded by the user.",
+                "chunkSource": "",
+                "published": "3/11/2024, 2:40:55 AM",
+                "wordCount": 791,
+                "token_count_estimate": 1776,
+                "text": "[\r\n  {\r\n    title: 'Mini Projector 4K 1080P Support',\r\n    price: '74.99',\r\n    discPrice: '89.99',\r\n    description: 'Mini Projector 4K 1080P Support, Portable Projector WiFi6 BT 5.0 Android 11, Smart Projector Auto Horizontal Correction,180°Rotatable Outdoor Movie Projector Compatible with Phone',\r\n    rating: '4.5 out of 5 stars',\r\n    reviewCnt: '3549',\r\n    primaryURL: 'https://amazon.com/Projector-Horizontal-Correction-180%C2%B0Rotatable-Compatible/dp/B0CLHVHR5J',\r\n    imageURL: 'https://m.media-amazon.com/images/I/813RiNV+rFL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: 'GooDee Projector 4K With WiFi And Bluetooth Supported',\r\n    price: '169.98',\r\n    discPrice: '339.99',\r\n    description: 'GooDee Projector 4K With WiFi And Bluetooth Supported, FHD 1080P Mini Projector For Outdoor Moives, 5G Video Projector For Home Theater Dolby Audio Zoom Portable Projector TV Stick PPT (YG600 Plus)',\r\n    rating: '4.4 out of 5 stars',\r\n    reviewCnt: '1415',",
+                "score": 0.26358669996261597
+            },
+            {
+                "id": "f22367fc-f630-4324-9ec0-1335eee0cde6",
+                "url": "file://E:\\Repos\\Robin\\AnyLM_\\dev01-robin\\collector\\hotdir\\ai240310_url-www-amazon_v03.txt",
+                "title": "ai240310_url-www-amazon_v03.txt",
+                "docAuthor": "Unknown",
+                "description": "Unknown",
+                "docSource": "a text file uploaded by the user.",
+                "chunkSource": "",
+                "published": "3/11/2024, 2:40:55 AM",
+                "wordCount": 791,
+                "token_count_estimate": 1776,
+                "text": "imageURL: 'https://m.media-amazon.com/images/I/51tyhOO+dYL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: 'Mini Projector',\r\n    price: '99.99',\r\n    discPrice: '99.99',\r\n    description: 'Mini Projector, 2023 Upgraded CiBest 1080P Full HD Portable Projector, 12000L Outdoor Projector for Home Theater Movie Projector, Projector 4K Compatible with HDMI, VGA, USB, TV Stick, Laptop',\r\n    rating: '4.4 out of 5 stars',\r\n    reviewCnt: '305',\r\n    primaryURL: 'https://amazon.com/Projector-Upgraded-Portable-Outdoor-Compatible/dp/B0CCXYZXKB',\r\n    imageURL: 'https://m.media-amazon.com/images/I/71Ji-h2nojL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: 'Projector with WiFi and Bluetooth',\r\n    price: '139.99',\r\n    discPrice: '199.99',\r\n    description: 'Projector with WiFi and Bluetooth, 5G WiFi 4K HD 20000L Portable Movie Projector with Mini Tripod, Outdoor Projector Home Video Smart Projectors Compatible with iOS/Android/Laptop/TV Stick/HDMI/USB',",
+                "score": 0.27512454986572266
+            },
+            {
+                "id": "6f8584cd-f5c7-4ae9-a4b2-3c5e4d7e67ad",
+                "url": "file://E:\\Repos\\Robin\\AnyLM_\\dev01-robin\\collector\\hotdir\\ai240310_url-www-amazon_v03.txt",
+                "title": "ai240310_url-www-amazon_v03.txt",
+                "docAuthor": "Unknown",
+                "description": "Unknown",
+                "docSource": "a text file uploaded by the user.",
+                "chunkSource": "",
+                "published": "3/11/2024, 2:40:55 AM",
+                "wordCount": 791,
+                "token_count_estimate": 1776,
+                "text": "imageURL: 'https://m.media-amazon.com/images/I/81oHKlFs1DL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: '4K Projector with WiFi and Bluetooth',\r\n    price: '59.99',\r\n    discPrice: '59.99',\r\n    description: '4K Projector with WiFi and Bluetooth, 12000 lumens Portable Native 1080P Mini Projector for iPhone, 5G Outdoor Movie Projectors for Home Cinema,HDMI,USB,VGA Supported',\r\n    rating: '4.2 out of 5 stars',\r\n    reviewCnt: '150',\r\n    primaryURL: 'https://amazon.com/Staratlas-Projector-Bluetooth-Projectors-Supported/dp/B0BWYL3SDH',\r\n    imageURL: 'https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: '[AI Auto Focus & Keystone] VOPLLS 4K Projector with Wifi and Bluetooth',\r\n    price: '399.99',\r\n    discPrice: '399.99',",
+                "score": 0.2758774161338806
+            },
+            {
+                "id": "b7afa253-f571-44f2-8d16-e6206d23a66e",
+                "url": "file://E:\\Repos\\Robin\\AnyLM_\\dev01-robin\\collector\\hotdir\\ai240310_url-www-amazon_v03.txt",
+                "title": "ai240310_url-www-amazon_v03.txt",
+                "docAuthor": "Unknown",
+                "description": "Unknown",
+                "docSource": "a text file uploaded by the user.",
+                "chunkSource": "",
+                "published": "3/11/2024, 2:40:55 AM",
+                "wordCount": 791,
+                "token_count_estimate": 1776,
+                "text": "description: '4K Projector, GooDee Projector with WiFi and Bluetooth, Mini Projector with Auto Keystone and Remote Focus, Native 1080P Home Theater Movie Projector Compatible with Phone/Laptop/TV Stick/Game/PPT',\r\n    rating: '4.4 out of 5 stars',\r\n    reviewCnt: '3164',\r\n    primaryURL: 'https://amazon.com/Projector-GooDee-Theater-Supported-Compatible/dp/B07SG98LXN',\r\n    imageURL: 'https://m.media-amazon.com/images/I/81ihg5UtHRL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: '[Auto Focus/4K Support] Projector with WiFi ',\r\n    price: '189.99',\r\n    discPrice: '289.99',\r\n    description: '[Auto Focus/4K Support] Projector with WiFi 6 and Bluetooth 5.2, 600ANSI Native 1080P Outdoor Movie Projector, WiMiUS P62 Auto 6D Keystone & 50% Zoom, Smart Home Projector for iOS/Android/TV Stick',\r\n    rating: '4.7 out of 5 stars',\r\n    reviewCnt: '1533',\r\n    primaryURL: 'https://amazon.com/Projector-Bluetooth-WiMiUS-Outdoor-Keystone/dp/B0BTHDPTSG',",
+                "score": 0.2772596478462219
+            }
+        ],
+        "chatId": 9,
+        "sentAt": 1710141257,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "how many products",
+        "sentAt": 1710141561
+    },
+    {
+        "role": "assistant",
+        "content": "There are five TOPTRO products listed.",
+        "sources": [
+            {
+                "id": "634c1564-e69b-4aa4-89fc-10752f69cead",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": "out of 5 stars\",\"reviewCnt\":\"329\",\"primaryURL\":\"https://amazon.com/Keystone-Projector-VIZONY-Bluetooth-Compatible/dp/B0CH89VF4G\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.2653834819793701
+            },
+            {
+                "id": "a2bce1c2-e40c-4213-834a-f80a2faf4d9b",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": "out of 5 stars\",\"reviewCnt\":\"190\",\"primaryURL\":\"https://amazon.com/Keystone-VOPLLS-Projector-Bluetooth-Official/dp/B0CLG8L3GB\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/81Ep7KbPe9L._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/81Ep7KbPe9L._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/81Ep7KbPe9L._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/81Ep7KbPe9L._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/81Ep7KbPe9L._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/81Ep7KbPe9L._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.2673991322517395
+            },
+            {
+                "id": "7c16d403-b388-4620-aa6a-a8571208ea44",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"[Auto Focus/Keystone] Android TV Projector 4K with Netflix Built in\",\"price\":\"359.99\",\"discPrice\":\"579.99\",\"description\":\"[Auto Focus/Keystone] Android TV Projector 4K with Netflix Built in, VIZONY 800ANSI 5G WiFi Bluetooth Outdoor Projector, FHD Home Movie Projector with 4P4D/Zoom/PPT Compatible Phone/Laptop, 8000+ Apps\",\"rating\":\"4.7 out of 5",
+                "score": 0.2674484848976135
+            },
+            {
+                "id": "1f0fc03f-b0b3-43a7-8fc0-f1fa3c1c6bfb",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"Projector 4K with Android TV\",\"price\":\"599.97\",\"discPrice\":\"599.97\",\"description\":\"Projector 4K with Android TV, YABER K2s 800 ANSI WiFi 6 Bluetooth Projector, Sound by JBL, Dolby Audio, Auto Focus & Keystone, Native 1080P 4K Supported Outdoor Movie Projector with Netflix 7000+ Apps\",\"rating\":\"4.6 out of 5 stars\",\"reviewCnt\":\"906\",\"primaryURL\":\"https://amazon.com/Projector-YABER-K2s-Bluetooth-Supported/dp/B0BW39Y3GC\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.2696227431297302
+            }
+        ],
+        "chatId": 10,
+        "sentAt": 1710141561,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "what are they",
+        "sentAt": 1710141591
+    },
+    {
+        "role": "assistant",
+        "content": "- TOPTRO X5 5G WiFi Bluetooth Projector\n- [Electric-Focus] Mini Projector, TOPTRO TR25\n- [Electric-Focus] 5G WiFi Bluetooth Projector, TOPTRO TR23\n- 4K Projector with WiFi and Bluetooth, TOPTRO 2023 Upgraded X3\n- [Auto Focus/Keystone] TOPTRO X7 Android TV Projector",
+        "sources": [
+            {
+                "id": "a6a67b2c-a45f-4d07-9728-ac82f169723f",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"[Netflix Certified & Dolby Audio] 4K Projector with Wifi\",\"price\":\"399.99\",\"discPrice\":\"399.99\",\"description\":\"[Netflix Certified & Dolby Audio] 4K Projector with Wifi6 & Bluetooth, WiMiUS 700ANSI Native 1080P 6D Auto Focus & Keystone Home Theater Smart Projector, Outdoor Movie Projecor with Netflix 7000+Apps\",\"rating\":\"5.0 out of 5 stars\",\"reviewCnt\":\"106\",\"primaryURL\":\"https://amazon.com/Certified-Projector-Bluetooth-WiMiUS-Keystone/dp/B0CFQV752P\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/41tUFl4+2AS._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/41tUFl4+2AS._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/41tUFl4+2AS._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/41tUFl4+2AS._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/41tUFl4+2AS._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/41tUFl4+2AS._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.28545093536376953
+            },
+            {
+                "id": "1f0fc03f-b0b3-43a7-8fc0-f1fa3c1c6bfb",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"Projector 4K with Android TV\",\"price\":\"599.97\",\"discPrice\":\"599.97\",\"description\":\"Projector 4K with Android TV, YABER K2s 800 ANSI WiFi 6 Bluetooth Projector, Sound by JBL, Dolby Audio, Auto Focus & Keystone, Native 1080P 4K Supported Outdoor Movie Projector with Netflix 7000+ Apps\",\"rating\":\"4.6 out of 5 stars\",\"reviewCnt\":\"906\",\"primaryURL\":\"https://amazon.com/Projector-YABER-K2s-Bluetooth-Supported/dp/B0BW39Y3GC\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/61ziALmNf5L._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.28621166944503784
+            },
+            {
+                "id": "634c1564-e69b-4aa4-89fc-10752f69cead",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": "out of 5 stars\",\"reviewCnt\":\"329\",\"primaryURL\":\"https://amazon.com/Keystone-Projector-VIZONY-Bluetooth-Compatible/dp/B0CH89VF4G\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/71l48P0oQ5L._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.28626638650894165
+            },
+            {
+                "id": "0c1d92f3-912c-418b-b781-c67910f5eb1f",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": "out of 5 stars\",\"reviewCnt\":\"18\",\"primaryURL\":\"https://amazon.com/Projector-Bluetooth-Supported-ONOAYO-Compatible/dp/B0CRY3L9PK\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/81UWRv9j38L._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/81UWRv9j38L._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/81UWRv9j38L._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/81UWRv9j38L._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/81UWRv9j38L._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/81UWRv9j38L._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.28779327869415283
+            }
+        ],
+        "chatId": 11,
+        "sentAt": 1710141591,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "what are the titles of all products",
+        "sentAt": 1710141625
+    },
+    {
+        "role": "assistant",
+        "content": "TOPTRO X5 5G WiFi Bluetooth Projector, [Electric-Focus] Mini Projector TOPTRO TR25, [Electric-Focus] 5G WiFi Bluetooth Projector TOPTRO TR23, 4K Projector with WiFi and Bluetooth TOPTRO 2023 Upgraded X3, [Auto Focus/Keystone] TOPTRO X7 Android TV Projector",
+        "sources": [
+            {
+                "id": "3b836728-b11a-400e-8f8a-cd677bb79e3e",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"[202\",\"price\":\"199.99\",\"discPrice\":\"299.99\",\"description\":\"[2024 Newest Auto Focus & Keystone] Projector with WiFi 6 and Bluetooth 5.2, ALVAR Portable Outdoor Projector 4K, Super Low Noise, Dust-Proof, 50% Zoom, 600 ANSI Native 1080P Proyector TV Stick PPT\",\"rating\":\"4.7 out of 5 stars\",\"reviewCnt\":\"213\",\"primaryURL\":\"https://amazon.com/Keystone-Projector-Bluetooth-Dust-Proof-Proyector/dp/B0CJ5JXVB2\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.24516397714614868
+            },
+            {
+                "id": "03eca618-d640-4bf5-bb97-3b4ca5b85b5d",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"Mini Projector\",\"price\":\"99.99\",\"discPrice\":\"99.99\",\"description\":\"Mini Projector, 2023 Upgraded CiBest 1080P Full HD Portable Projector, 12000L Outdoor Projector for Home Theater Movie Projector, Projector 4K Compatible with HDMI, VGA, USB, TV Stick, Laptop\",\"rating\":\"4.4 out of 5 stars\",\"reviewCnt\":\"305\",\"primaryURL\":\"https://amazon.com/Projector-Upgraded-Portable-Outdoor-Compatible/dp/B0CCXYZXKB\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.24707400798797607
+            },
+            {
+                "id": "08d5d56f-6d77-4841-a493-f599a6eb5153",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"[Auto Focus/Keystone] TOPTRO X\",\"price\":\"289.99\",\"discPrice\":\"289.99\",\"description\":\"[Auto Focus/Keystone] TOPTRO X7 Android TV Projector with WiFi and Bluetooth, Smart Projector 4K Supported, 600 ANSI, Dust-proof, 50% Zoom, Outdoor Projector with Netflix/YouTube Built-in, 8000+ Apps\",\"rating\":\"5.0 out of 5 stars\",\"reviewCnt\":\"105\",\"primaryURL\":\"https://amazon.com/TOPTRO-X7-Projector-Bluetooth-Dust-proof/dp/B0CT3HSQBB\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.24889898300170898
+            },
+            {
+                "id": "4518d6ca-1bd3-40af-b503-30791b461319",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"4K Projector with WiFi and Bluetooth\",\"price\":\"59.99\",\"discPrice\":\"59.99\",\"description\":\"4K Projector with WiFi and Bluetooth, 12000 lumens Portable Native 1080P Mini Projector for iPhone, 5G Outdoor Movie Projectors for Home Cinema,HDMI,USB,VGA Supported\",\"rating\":\"4.2 out of 5 stars\",\"reviewCnt\":\"150\",\"primaryURL\":\"https://amazon.com/Staratlas-Projector-Bluetooth-Projectors-Supported/dp/B0BWYL3SDH\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.251725971698761
+            }
+        ],
+        "chatId": 12,
+        "sentAt": 1710141625,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "what are the titles of all products",
+        "sentAt": 1710141984
+    },
+    {
+        "role": "assistant",
+        "content": "TOPTRO X5 5G WiFi Bluetooth Projector, [Electric-Focus] Mini Projector TOPTRO TR25, [Electric-Focus] 5G WiFi Bluetooth Projector TOPTRO TR23, 4K Projector with WiFi and Bluetooth TOPTRO 2023 Upgraded X3, [Auto Focus/Keystone] TOPTRO X7 Android TV Projector",
+        "sources": [
+            {
+                "text": "[{\"title\":\"Mini Projector 4K 1080P Support\",\"price\":\"89.99\",\"discPrice\":\"89.99\",\"description\":\"Mini Projector 4K 1080P Support, Portable Projector WiFi6 BT 5.0 Android 11, Smart Projector Auto Horizontal Correction,180°Rotatable Outdoor Movie Projector Compatible with Phone\",\"rating\":\"4.5 out of 5 stars\",\"reviewCnt\":\"3549\",\"primaryURL\":\"https://amazon.com/Projector-Horizontal-Correction-180%C2%B0Rotatable-Compatible/dp/B0CLHVHR5J\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/813RiNV+rFL._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/813RiNV+rFL._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/813RiNV+rFL._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/813RiNV+rFL._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/813RiNV+rFL._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/813RiNV+rFL._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}\n,{\"title\":\"GooDee Projector 4K Wi...continued on in source document...",
+                "id": "9860d2dc-a78a-4921-b886-dea3c4e91aa4",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178
+            },
+            {
+                "id": "3b836728-b11a-400e-8f8a-cd677bb79e3e",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"[202\",\"price\":\"199.99\",\"discPrice\":\"299.99\",\"description\":\"[2024 Newest Auto Focus & Keystone] Projector with WiFi 6 and Bluetooth 5.2, ALVAR Portable Outdoor Projector 4K, Super Low Noise, Dust-Proof, 50% Zoom, 600 ANSI Native 1080P Proyector TV Stick PPT\",\"rating\":\"4.7 out of 5 stars\",\"reviewCnt\":\"213\",\"primaryURL\":\"https://amazon.com/Keystone-Projector-Bluetooth-Dust-Proof-Proyector/dp/B0CJ5JXVB2\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/81NIu18S-2L._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.24516397714614868
+            },
+            {
+                "id": "03eca618-d640-4bf5-bb97-3b4ca5b85b5d",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"Mini Projector\",\"price\":\"99.99\",\"discPrice\":\"99.99\",\"description\":\"Mini Projector, 2023 Upgraded CiBest 1080P Full HD Portable Projector, 12000L Outdoor Projector for Home Theater Movie Projector, Projector 4K Compatible with HDMI, VGA, USB, TV Stick, Laptop\",\"rating\":\"4.4 out of 5 stars\",\"reviewCnt\":\"305\",\"primaryURL\":\"https://amazon.com/Projector-Upgraded-Portable-Outdoor-Compatible/dp/B0CCXYZXKB\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/71HcbwmsanL._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.24707400798797607
+            },
+            {
+                "id": "08d5d56f-6d77-4841-a493-f599a6eb5153",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"[Auto Focus/Keystone] TOPTRO X\",\"price\":\"289.99\",\"discPrice\":\"289.99\",\"description\":\"[Auto Focus/Keystone] TOPTRO X7 Android TV Projector with WiFi and Bluetooth, Smart Projector 4K Supported, 600 ANSI, Dust-proof, 50% Zoom, Outdoor Projector with Netflix/YouTube Built-in, 8000+ Apps\",\"rating\":\"5.0 out of 5 stars\",\"reviewCnt\":\"105\",\"primaryURL\":\"https://amazon.com/TOPTRO-X7-Projector-Bluetooth-Dust-proof/dp/B0CT3HSQBB\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/71rNDdqBMbL._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.24889898300170898
+            },
+            {
+                "id": "4518d6ca-1bd3-40af-b503-30791b461319",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics",
+                "published": "3/11/2024, 3:18:00 AM",
+                "wordCount": 868,
+                "token_count_estimate": 8178,
+                "text": ",{\"title\":\"4K Projector with WiFi and Bluetooth\",\"price\":\"59.99\",\"discPrice\":\"59.99\",\"description\":\"4K Projector with WiFi and Bluetooth, 12000 lumens Portable Native 1080P Mini Projector for iPhone, 5G Outdoor Movie Projectors for Home Cinema,HDMI,USB,VGA Supported\",\"rating\":\"4.2 out of 5 stars\",\"reviewCnt\":\"150\",\"primaryURL\":\"https://amazon.com/Staratlas-Projector-Bluetooth-Projectors-Supported/dp/B0BWYL3SDH\",\"productURLs\":{},\"imageURL\":\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY654_FMwebp_QL65_.jpg\",\"imageURLs\":[[\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY218_.jpg\",\"1x\"],[\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY327_FMwebp_QL65_.jpg\",\"1.5x\"],[\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY436_FMwebp_QL65_.jpg\",\"2x\"],[\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY545_FMwebp_QL65_.jpg\",\"2.5x\"],[\"https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY654_FMwebp_QL65_.jpg\",\"3x\"]]}",
+                "score": 0.251725971698761
+            }
+        ],
+        "chatId": 13,
+        "sentAt": 1710141984,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "what are the titles of all products",
+        "sentAt": 1710168120
+    },
+    {
+        "role": "assistant",
+        "content": "TOPTRO X5 5G WiFi Bluetooth Projector, [Electric-Focus] Mini Projector TOPTRO TR25, [Electric-Focus] 5G WiFi Bluetooth Projector TOPTRO TR23, 4K Projector with WiFi and Bluetooth TOPTRO 2023 Upgraded X3, [Auto Focus/Keystone] TOPTRO X7 Android TV Projector",
+        "sources": [
+            {
+                "id": "9c0147bb-96a9-43a7-a994-f01385448db3",
+                "url": "file://E:\\Repos\\Robin\\AnyLM_\\dev01-robin\\collector\\hotdir\\ai240310_url-www-amazon_v03.txt",
+                "title": "ai240310_url-www-amazon_v03.txt",
+                "docAuthor": "Unknown",
+                "description": "Unknown",
+                "docSource": "a text file uploaded by the user.",
+                "chunkSource": "",
+                "published": "3/11/2024, 2:40:55 AM",
+                "wordCount": 791,
+                "token_count_estimate": 1776,
+                "text": "[\r\n  {\r\n    title: 'Mini Projector 4K 1080P Support',\r\n    price: '74.99',\r\n    discPrice: '89.99',\r\n    description: 'Mini Projector 4K 1080P Support, Portable Projector WiFi6 BT 5.0 Android 11, Smart Projector Auto Horizontal Correction,180°Rotatable Outdoor Movie Projector Compatible with Phone',\r\n    rating: '4.5 out of 5 stars',\r\n    reviewCnt: '3549',\r\n    primaryURL: 'https://amazon.com/Projector-Horizontal-Correction-180%C2%B0Rotatable-Compatible/dp/B0CLHVHR5J',\r\n    imageURL: 'https://m.media-amazon.com/images/I/813RiNV+rFL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: 'GooDee Projector 4K With WiFi And Bluetooth Supported',\r\n    price: '169.98',\r\n    discPrice: '339.99',\r\n    description: 'GooDee Projector 4K With WiFi And Bluetooth Supported, FHD 1080P Mini Projector For Outdoor Moives, 5G Video Projector For Home Theater Dolby Audio Zoom Portable Projector TV Stick PPT (YG600 Plus)',\r\n    rating: '4.4 out of 5 stars',\r\n    reviewCnt: '1415',",
+                "score": 0.24990594387054443
+            },
+            {
+                "id": "a041163a-3790-4210-bc95-645fa60f5701",
+                "url": "file://E:\\Repos\\Robin\\AnyLM_\\dev01-robin\\collector\\hotdir\\ai240310_url-www-amazon_v03.txt",
+                "title": "ai240310_url-www-amazon_v03.txt",
+                "docAuthor": "Unknown",
+                "description": "Unknown",
+                "docSource": "a text file uploaded by the user.",
+                "chunkSource": "",
+                "published": "3/11/2024, 2:40:55 AM",
+                "wordCount": 791,
+                "token_count_estimate": 1776,
+                "text": "imageURL: 'https://m.media-amazon.com/images/I/81oHKlFs1DL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: '4K Projector with WiFi and Bluetooth',\r\n    price: '59.99',\r\n    discPrice: '59.99',\r\n    description: '4K Projector with WiFi and Bluetooth, 12000 lumens Portable Native 1080P Mini Projector for iPhone, 5G Outdoor Movie Projectors for Home Cinema,HDMI,USB,VGA Supported',\r\n    rating: '4.2 out of 5 stars',\r\n    reviewCnt: '150',\r\n    primaryURL: 'https://amazon.com/Staratlas-Projector-Bluetooth-Projectors-Supported/dp/B0BWYL3SDH',\r\n    imageURL: 'https://m.media-amazon.com/images/I/61+EsQfq3AL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: '[AI Auto Focus & Keystone] VOPLLS 4K Projector with Wifi and Bluetooth',\r\n    price: '399.99',\r\n    discPrice: '399.99',",
+                "score": 0.25152289867401123
+            },
+            {
+                "id": "78b3df61-6e3b-458f-a1ac-121114598c5e",
+                "url": "file://E:\\Repos\\Robin\\AnyLM_\\dev01-robin\\collector\\hotdir\\ai240310_url-www-amazon_v03.txt",
+                "title": "ai240310_url-www-amazon_v03.txt",
+                "docAuthor": "Unknown",
+                "description": "Unknown",
+                "docSource": "a text file uploaded by the user.",
+                "chunkSource": "",
+                "published": "3/11/2024, 2:40:55 AM",
+                "wordCount": 791,
+                "token_count_estimate": 1776,
+                "text": "primaryURL: 'https://amazon.com/GooDee-Projector-Bluetooth-Supported-Portable/dp/B0BCPS4PSZ',\r\n    imageURL: 'https://m.media-amazon.com/images/I/81MYmyoyhdL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: '4K Support Projector with Wifi and Bluetooth',\r\n    price: '99.99',\r\n    discPrice: '199.99',\r\n    description: '4K Support Projector with Wifi and Bluetooth, OWNKNEW Portable Mini Projectors for Outdoor Movies Use, Video Projector Compatible with TV Stick, Laptop, Smartphone, Xbox, PS5',\r\n    rating: '4.5 out of 5 stars',\r\n    reviewCnt: '111',\r\n    primaryURL: 'https://amazon.com/Projector-OWNKNEW-Projectors-Compatible-Smartphone/dp/B0CHVVCBVX',\r\n    imageURL: 'https://m.media-amazon.com/images/I/81wHzWXLzfL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: '4K Projector',\r\n    price: '149.99',\r\n    discPrice: '179.99',",
+                "score": 0.25345277786254883
+            },
+            {
+                "id": "e311288e-7e3a-4f89-a48b-0c0ede988cf0",
+                "url": "file://E:\\Repos\\Robin\\AnyLM_\\dev01-robin\\collector\\hotdir\\ai240310_url-www-amazon_v03.txt",
+                "title": "ai240310_url-www-amazon_v03.txt",
+                "docAuthor": "Unknown",
+                "description": "Unknown",
+                "docSource": "a text file uploaded by the user.",
+                "chunkSource": "",
+                "published": "3/11/2024, 2:40:55 AM",
+                "wordCount": 791,
+                "token_count_estimate": 1776,
+                "text": "imageURL: 'https://m.media-amazon.com/images/I/51tyhOO+dYL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: 'Mini Projector',\r\n    price: '99.99',\r\n    discPrice: '99.99',\r\n    description: 'Mini Projector, 2023 Upgraded CiBest 1080P Full HD Portable Projector, 12000L Outdoor Projector for Home Theater Movie Projector, Projector 4K Compatible with HDMI, VGA, USB, TV Stick, Laptop',\r\n    rating: '4.4 out of 5 stars',\r\n    reviewCnt: '305',\r\n    primaryURL: 'https://amazon.com/Projector-Upgraded-Portable-Outdoor-Compatible/dp/B0CCXYZXKB',\r\n    imageURL: 'https://m.media-amazon.com/images/I/71Ji-h2nojL._AC_UY654_FMwebp_QL65_.jpg'\r\n  },\r\n  {\r\n    title: 'Projector with WiFi and Bluetooth',\r\n    price: '139.99',\r\n    discPrice: '199.99',\r\n    description: 'Projector with WiFi and Bluetooth, 5G WiFi 4K HD 20000L Portable Movie Projector with Mini Tripod, Outdoor Projector Home Video Smart Projectors Compatible with iOS/Android/Laptop/TV Stick/HDMI/USB',",
+                "score": 0.255389928817749
+            }
+        ],
+        "chatId": 18,
+        "sentAt": 1710168120,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "what are the titles of all products",
+        "sentAt": 1710184232
+    },
+    {
+        "role": "assistant",
+        "content": "TOPTRO X5 5G WiFi Bluetooth Projector, [Electric-Focus] Mini Projector TOPTRO TR25, [Electric-Focus] 5G WiFi Bluetooth Projector TOPTRO TR23, 4K Projector with WiFi and Bluetooth TOPTRO 2023 Upgraded X3, [Auto Focus/Keystone] TOPTRO X7 Android TV Projector",
+        "sources": [
+            {
+                "id": "4d5d4d4d-84a8-499f-81d9-8714cb20d9e5",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics ~~ AmazonListParser(10)",
+                "published": "3/11/2024, 3:06:01 PM",
+                "wordCount": 1468,
+                "token_count_estimate": 3917,
+                "text": "EN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nSign in\nNew customer? Start here.\nAll\nDisability Customer Support\nMedical Care\nGroceries\nBest Sellers\nAmazon Basics\nPrime\nNew Releases\nCustomer Service\nMusic\nToday's Deals\nRegistry\nBooks\nAmazon Home\nPharmacy\nGift Cards\nFashion\nLuxury Stores\nSmart Home\nCoupons\nSell\nToys & Games\nFind a Gift\nComputers\nAutomotive\nHome Improvement\nHousehold, Health & Baby Care\nBeauty & Personal Care\nPet Supplies\nVideo Games\nWorks with Alexa\nSports & Outdoors\nShop women-owned businesses\n1-16 of over 1,000 results for \"projector 4k\"\nSort by:\nFeatured\nPrice: Low to High\nPrice: High to Low\nAvg. Customer Review\nNewest Arrivals\nBest Sellers\nSort by:Featured\nShowing results from All Departments\nNo results for projector 4k in specified category.\nResults\nCheck each product page for other buying options.",
+                "score": 0.2278527021408081
+            },
+            {
+                "id": "d8f79e94-5d6e-4c3b-a373-512b0f32ce6d",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics ~~ AmazonListParser(10)",
+                "published": "3/11/2024, 3:06:01 PM",
+                "wordCount": 1468,
+                "token_count_estimate": 3917,
+                "text": "& collectibles\t\tACX\nAudiobook Publishing\nMade Easy\t\tSell on Amazon\nStart a Selling Account\t\tAmazon Business\nEverything For\nYour Business\n \nAmazon Fresh\nGroceries & More\nRight To Your Door\t\tAmazonGlobal\nShip Orders\nInternationally\t\tHome Services\nExperienced Pros\nHappiness Guarantee\t\tAmazon Web Services\nScalable Cloud\nComputing Services\t\tAudible\nListen to Books & Original\nAudio Performances\t\tBox Office Mojo\nFind Movie\nBox Office Data\t\tGoodreads\nBook reviews\n& recommendations\n \nIMDb\nMovies, TV\n& Celebrities\t\tIMDbPro\nGet Info Entertainment\nProfessionals Need\t\tKindle Direct Publishing\nIndie Digital & Print Publishing\nMade Easy\t\tAmazon Photos\nUnlimited Photo Storage\nFree With Prime\t\tPrime Video Direct\nVideo Distribution\nMade Easy\t\tShopbop\nDesigner\nFashion Brands\t\tAmazon Warehouse\nGreat Deals on\nQuality Used Products\n \nWhole Foods Market\nAmerica’s Healthiest\nGrocery Store\t\tWoot!\nDeals and\nShenanigans\t\tZappos\nShoes &\nClothing\t\tRing\nSmart Home\nSecurity Systems\t\teero WiFi\nStream 4K Video",
+                "score": 0.23732060194015503
+            },
+            {
+                "id": "4cf80467-5034-476c-91da-e4d1c4fdd0a0",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics ~~ AmazonListParser(10)",
+                "published": "3/11/2024, 3:06:01 PM",
+                "wordCount": 1468,
+                "token_count_estimate": 3917,
+                "text": "Get to Know Us\nCareers\nAmazon Newsletter\nAbout Amazon\nAccessibility\nSustainability\nPress Center\nInvestor Relations\nAmazon Devices\nAmazon Science\n\t\t\nMake Money with Us\nSell more with Amazon\nSell apps on Amazon\nSupply to Amazon\nProtect & Build Your Brand\nBecome an Affiliate\nBecome a Delivery Driver\nStart a Package Delivery Business\nAdvertise Your Products\nSelf-Publish with Us\nHost an Amazon Hub\n›See More Ways to Make Money\n\t\t\nAmazon Payment Products\nAmazon Visa\nAmazon Store Card\nAmazon Secured Card\nAmazon Business Card\nShop with Points\nCredit Card Marketplace\nReload Your Balance\nGift Cards\nAmazon Currency Converter\n\t\t\nLet Us Help You\nYour Account\nYour Orders\nShipping Rates & Policies\nAmazon Prime\nReturns & Replacements\nManage Your Content and Devices\nRecalls and Product Safety Alerts\nHelp\n \nEnglish United States\nAmazon Music\nStream millions\nof songs\t\tAmazon Ads\nReach customers\nwherever they\nspend their time\t\t6pm\nScore deals\non fashion brands\t\tAbeBooks\nBooks, art\n& collectibles\t\tACX",
+                "score": 0.24103301763534546
+            },
+            {
+                "id": "dc384d28-a13d-4d8a-81cc-06e5355d9f58",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics ~~ AmazonListParser(10)",
+                "published": "3/11/2024, 3:06:01 PM",
+                "wordCount": 1468,
+                "token_count_estimate": 3917,
+                "text": "Skip to main content\nDelivering to Midlothian 23112\nUpdate location\nAll\nAll Departments\nAlexa Skills\nAmazon Clinic\nAmazon Devices\nAmazon Fresh\nAmazon Pharmacy\nAmazon Warehouse\nAppliances\nApps & Games\nArts, Crafts & Sewing\nAudible Books & Originals\nAutomotive Parts & Accessories\nBaby\nBeauty & Personal Care\nBooks\nCDs & Vinyl\nCell Phones & Accessories\nClothing, Shoes & Jewelry\n   Women\n   Men\n   Girls\n   Boys\n   Baby\nCollectibles & Fine Art\nComputers\nCredit and Payment Cards\nDigital Music\nElectronics\nGarden & Outdoor\nGift Cards\nGrocery & Gourmet Food\nHandmade\nHealth, Household & Baby Care\nHome & Business Services\nHome & Kitchen\nIndustrial & Scientific\nJust for Prime\nKindle Store\nLuggage & Travel Gear\nLuxury Stores\nMagazine Subscriptions\nMovies & TV\nMusical Instruments\nOffice Products\nPet Supplies\nPremium Beauty\nPrime Video\nSmart Home\nSoftware\nSports & Outdoors\nSubscribe & Save\nSubscription Boxes\nTools & Home Improvement\nToys & Games\nUnder $10\nVideo Games\nWhole Foods Market\nEN",
+                "score": 0.2511606812477112
+            }
+        ],
+        "chatId": 19,
+        "sentAt": 1710184232,
+        "feedbackScore": null
+    },
+    {
+        "role": "user",
+        "content": "hello",
+        "sentAt": 1710251118
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! How can I assist you today?",
+        "sources": [
+            {
+                "id": "657718a1-3802-46da-89b0-3e8572003589",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics ~~ AmazonListParser(10)",
+                "published": "3/11/2024, 3:06:01 PM",
+                "wordCount": 1468,
+                "token_count_estimate": 3917,
+                "text": "Stream 4K Video\nin Every Room\t\tBlink\nSmart Security\nfor Every Home\t\tNeighbors App\nReal-Time Crime\n& Safety Alerts\n \n \t\t \t\tAmazon Subscription Boxes\nTop subscription boxes – right to your door\t\tPillPack\nPharmacy Simplified\t\tAmazon Renewed\nLike-new products\nyou can trust\t\t \t\t \nConditions of Use\nPrivacy Notice\nYour Ads Privacy Choices\n© 1996-2024, Amazon.com, Inc. or its affiliates",
+                "score": 0.24202853441238403
+            },
+            {
+                "id": "4d5d4d4d-84a8-499f-81d9-8714cb20d9e5",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics ~~ AmazonListParser(10)",
+                "published": "3/11/2024, 3:06:01 PM",
+                "wordCount": 1468,
+                "token_count_estimate": 3917,
+                "text": "EN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nSign in\nNew customer? Start here.\nAll\nDisability Customer Support\nMedical Care\nGroceries\nBest Sellers\nAmazon Basics\nPrime\nNew Releases\nCustomer Service\nMusic\nToday's Deals\nRegistry\nBooks\nAmazon Home\nPharmacy\nGift Cards\nFashion\nLuxury Stores\nSmart Home\nCoupons\nSell\nToys & Games\nFind a Gift\nComputers\nAutomotive\nHome Improvement\nHousehold, Health & Baby Care\nBeauty & Personal Care\nPet Supplies\nVideo Games\nWorks with Alexa\nSports & Outdoors\nShop women-owned businesses\n1-16 of over 1,000 results for \"projector 4k\"\nSort by:\nFeatured\nPrice: Low to High\nPrice: High to Low\nAvg. Customer Review\nNewest Arrivals\nBest Sellers\nSort by:Featured\nShowing results from All Departments\nNo results for projector 4k in specified category.\nResults\nCheck each product page for other buying options.",
+                "score": 0.24336761236190796
+            },
+            {
+                "id": "cb465988-de58-4d93-9389-4d71b2281952",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics ~~ AmazonListParser(10)",
+                "published": "3/11/2024, 3:06:01 PM",
+                "wordCount": 1468,
+                "token_count_estimate": 3917,
+                "text": "Auto Focus\nSee more\nRecommended Uses For Product\nBusiness\nEducation\nGaming\nHome Cinema\nForm Factor\nDesktop\nPocket\nPortable\nStationary\nIncluded Components\nAdaptor\nAV Cable\nBattery\nCarrying Bag\nCleaning Kit\nHDMI Cable\nPower Cord\nSee more\nAll Top Brands\nTop Brands\nPackaging Option\nFrustration-Free Packaging\nVideo Projector Image Brightness\nUp to 999 lm\n1000 to 1499 lm\n1500 to 1999 lm\n2000 to 2499 lm\n2500 to 2999 lm\n3000 lm & above\nProjector Contrast Ratio\n0 to 999:1\n1,000 to 1,999:1\n2,000 to 2,999:1\n3,000 to 4,999:1\n5,000 to 9,999:1\n10,000 to 19,999:1\n20,000 to 49,999:1\n50,000+:1\nProjector Weight\n4.9 lbs & Under\n5 to 9.9 lbs\n10 lbs & Above\nProjector Aspect Ratio\n4:3\n16:9\n16:10\nNew Arrivals\nNew Arrivals\nCertification\nEnergy Star\nInternational Shipping\nInternational Shipping Eligible\nCondition\nNew\nRenewed\nUsed\nSeller\nAmazon Warehouse\nishiquguikelaizhilengshebeidian\nAVNation\nGrenade Audio\nAmazon.com\nHatchfields Co.\nZHIXIAOSHIDAI\nAvailability\nInclude Out of Stock\nBack to top\nGet to Know Us",
+                "score": 0.2587434649467468
+            },
+            {
+                "id": "4cf80467-5034-476c-91da-e4d1c4fdd0a0",
+                "url": "file://www_amazon.com-s.html",
+                "title": "www_amazon.com-s.html",
+                "docAuthor": "no author found",
+                "description": "No description found.",
+                "docSource": "URL link uploaded by the user.",
+                "chunkSource": "link://https://www.amazon.com/s?k=projector+4k&i=electronics ~~ AmazonListParser(10)",
+                "published": "3/11/2024, 3:06:01 PM",
+                "wordCount": 1468,
+                "token_count_estimate": 3917,
+                "text": "Get to Know Us\nCareers\nAmazon Newsletter\nAbout Amazon\nAccessibility\nSustainability\nPress Center\nInvestor Relations\nAmazon Devices\nAmazon Science\n\t\t\nMake Money with Us\nSell more with Amazon\nSell apps on Amazon\nSupply to Amazon\nProtect & Build Your Brand\nBecome an Affiliate\nBecome a Delivery Driver\nStart a Package Delivery Business\nAdvertise Your Products\nSelf-Publish with Us\nHost an Amazon Hub\n›See More Ways to Make Money\n\t\t\nAmazon Payment Products\nAmazon Visa\nAmazon Store Card\nAmazon Secured Card\nAmazon Business Card\nShop with Points\nCredit Card Marketplace\nReload Your Balance\nGift Cards\nAmazon Currency Converter\n\t\t\nLet Us Help You\nYour Account\nYour Orders\nShipping Rates & Policies\nAmazon Prime\nReturns & Replacements\nManage Your Content and Devices\nRecalls and Product Safety Alerts\nHelp\n \nEnglish United States\nAmazon Music\nStream millions\nof songs\t\tAmazon Ads\nReach customers\nwherever they\nspend their time\t\t6pm\nScore deals\non fashion brands\t\tAbeBooks\nBooks, art\n& collectibles\t\tACX",
+                "score": 0.26127439737319946
+            }
+        ],
+        "chatId": 20,
+        "sentAt": 1710251118,
+        "feedbackScore": null
+    },
+    {
+        "content": "dfgdfg",
+        "role": "user"
+    },
+    {
+        "content": "",
+        "role": "assistant",
+        "pending": true,
+        "userMessage": "dfgdfg",
+        "animate": true
+    }
+]

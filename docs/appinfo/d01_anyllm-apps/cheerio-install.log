@@ -1,0 +1,56 @@
+
+Robin@rm228d-w11p MINGW64 /e/Repos/Robin/AnyLM_/dev01-robin/collector (master)
+$ npm install cheerio --force
+npm WARN using --force Recommended protections disabled.
+
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: langchain@0.0.201    npm WARN Found:       puppeteer@21.5.2
+npm WARN Could not resolve dependency:         npm WARN peerOptional puppeteer@"^19.7.2"  from langchain@0.0.201 npm WARN langchain@"0.0.201" from the root project
+npm WARN Conflicting peer dependency: puppeteer@19.11.1 peerOptional puppeteer@"^19.7.2"  from langchain@0.0.201 npm WARN langchain@"0.0.201" from the root project
+
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: langchain@0.0.201    npm WARN Found:       youtubei.js@8.0.0
+npm WARN Could not resolve dependency:         npm WARN peerOptional youtubei.js@"^5.8.0" from langchain@0.0.201 npm WARN langchain@"0.0.201" from the root project
+npm WARN Conflicting peer dependency: youtubei.js@5.8.0 peerOptional youtubei.js@"^5.8.0" from langchain@0.0.201 npm WARN langchain@"0.0.201" from the root project
+
+
+
+Robin@rm228d-w11p MINGW64 /e/Repos/Robin/AnyLM_/dev01-robin/collector (master)
+$ npm install cheerio --force
+npm WARN using --force Recommended protections disabled.
+
+
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: langchain@0.0.201
+npm WARN Found: puppeteer@21.5.2
+npm WARN node_modules/puppeteer
+npm WARN   puppeteer@"~21.5.2" from the root project
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peerOptional puppeteer@"^19.7.2" from langchain@0.0.201
+npm WARN node_modules/langchain
+npm WARN   langchain@"0.0.201" from the root project
+npm WARN
+npm WARN Conflicting peer dependency: puppeteer@19.11.1
+npm WARN node_modules/puppeteer
+npm WARN   peerOptional puppeteer@"^19.7.2" from langchain@0.0.201
+npm WARN   node_modules/langchain
+npm WARN     langchain@"0.0.201" from the root project
+
+
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: langchain@0.0.201
+npm WARN Found: youtubei.js@8.0.0
+npm WARN node_modules/youtubei.js
+npm WARN   youtubei.js@"^8.0.0" from the root project
+npm WARN
+npm WARN Could not resolve dependency:
+npm WARN peerOptional youtubei.js@"^5.8.0" from langchain@0.0.201
+npm WARN node_modules/langchain
+npm WARN   langchain@"0.0.201" from the root project
+npm WARN
+npm WARN Conflicting peer dependency: youtubei.js@5.8.0
+npm WARN node_modules/youtubei.js
+npm WARN   peerOptional youtubei.js@"^5.8.0" from langchain@0.0.201
+npm WARN   node_modules/langchain
+npm WARN     langchain@"0.0.201" from the root project
