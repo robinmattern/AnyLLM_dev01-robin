@@ -5,8 +5,9 @@
 
 class CollectorApi {
   constructor() {
-    this.endpoint = "http://0.0.0.0:8888";
-  }
+//  this.endpoint = "http://0.0.0.0:8888";      //#.(40308.01.1)
+    this.endpoint = "http://127.0.0.1:8888";    // .(40308.01.1 RAM)
+    }
 
   log(text, ...args) {
     console.log(`\x1b[36m[CollectorApi]\x1b[0m ${text}`, ...args);

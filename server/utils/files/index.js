@@ -2,14 +2,25 @@ const fs = require("fs");
 const path = require("path");
 const { v5: uuidv5 } = require("uuid");
 const { Document } = require("../../models/documents");
+/*
 const documentsPath =
-  process.env.NODE_ENV === "development"
+      process.env.NODE_ENV === "development"
     ? path.resolve(__dirname, `../../storage/documents`)
     : path.resolve(process.env.STORAGE_DIR, `documents`);
+
 const vectorCachePath =
   process.env.NODE_ENV === "development"
     ? path.resolve(__dirname, `../../storage/vector-cache`)
     : path.resolve(process.env.STORAGE_DIR, `vector-cache`);
+*/
+      process.env.NODE_ENV  =  "development"
+  if (process.env.NODE_ENV === "development") { 
+  var documentsPath   = path.resolve( __dirname, `../../storage/documents`   ) 
+  var vectorCachePath = path.resolve( __dirname, `../../storage/vector-cache`)
+} else { 
+  var documentsPath   = path.resolve( process.env.STORAGE_DIR, `documents`   )
+  var vectorCachePath = path.resolve( process.env.STORAGE_DIR, `vector-cache`)
+      }
 
 // Should take in a folder that is a subfolder of documents
 // eg: youtube-subject/video-123.json
