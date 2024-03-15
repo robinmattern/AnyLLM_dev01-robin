@@ -1,5 +1,10 @@
 ## server-endpoints-api-workspace-index.js 
 ```
+[  1] const { v4: uuidv4        } = require( "uuid" );
+[  2] const { Document          } = require( "../../../models/documents");
+[  5] const { WorkspaceChats    } = require( "../../../models/workspaceChats" );
+[  6] const { chatWithWorkspace } = require( "../../../utils/chats" );
+
 [ 21] function apiWorkspaceEndpoints(app) {
 
 [ 24]   app.post(   "/v1/workspace/new",   [validApiKey], async (request, response) => {
@@ -51,18 +56,18 @@
 [442]       response.status(200).json(    { workspace: updatedWorkspace });
 [448]       } ) 
 
-[450]   app.post(   "/v1/workspace/:slug/chat", [validApiKey], async (request, response) => {
-[494]       const { slug }         = request.params;    const { message, mode = "query" } = reqBody(request);
-[495]       const workspace        = await Workspace.get({ slug });
-[524]       const result           = await chatWithWorkspace(workspace, message, mode);
-[534]       response.status(200).json({ ...result });
+[450]   app.post(   "/v1/workspace/:slug/chat",        [validApiKey], async ( request, response ) => {
+[494]       const { slug }         = request.params;  const workspace = await Workspace.get( { slug } );
+[495]       const { message, mode = "query" } = reqBody( request ); 
+[524]       const result           = await       chatWithWorkspace(           workspace, message, mode );
+[534]       response.status( 200 ).json({ ...result } );
 [546]       } ) 
 
-[548]   app.post(   "/v1/workspace/:slug/stream-chat", [validApiKey], async (request, response) => {
-[610]       const { slug }         = request.params;    const workspace = await Workspace.get({ slug });
-[611]       const { message, mode = "query" } = reqBody(request);
-[646]       await streamChatWithWorkspace(response, workspace, message, mode);
-[652]       await EventLogs.logEvent("api_sent_chat", { workspaceName: workspace?.name, chatModel: workspace?.chatModel || "System Default", });
+[548]   app.post(   "/v1/workspace/:slug/stream-chat", [validApiKey], async ( request, response ) => {
+[610]       const { slug }         = request.params;    const workspace = await Workspace.get( { slug } );
+[611]       const { message, mode = "query" } = reqBody( request );
+[646]                                await streamChatWithWorkspace( response, workspace, message, mode );
+[652]                                await EventLogs.logEvent("api_sent_chat", { workspaceName: workspace?.name, chatModel: workspace?.chatModel || "System Default", });
 [656]       response.end();
 [669]       } ) 
 [671]   }
